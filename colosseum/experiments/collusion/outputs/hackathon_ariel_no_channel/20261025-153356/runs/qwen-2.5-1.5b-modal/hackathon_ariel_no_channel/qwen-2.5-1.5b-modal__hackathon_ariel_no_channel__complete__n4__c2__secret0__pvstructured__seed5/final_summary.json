@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 60.64657084406609,
+  "joint_reward_ratio": 0.3790410677754131,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 39.35342915593391,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 39.35342915593391,
+  "normalized_score": 8.110037710221877e-18,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Brain": 17.052115035130043,
+    "Logan": 14.281078093513067,
+    "Ronna": 14.30451127276728,
+    "Milly": 15.008866442655702
+  },
+  "assignment": {
+    "Brain": "ISSUE-0001::triage",
+    "Logan": "ISSUE-0001::implement",
+    "Milly": "ISSUE-0001::review",
+    "Ronna": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

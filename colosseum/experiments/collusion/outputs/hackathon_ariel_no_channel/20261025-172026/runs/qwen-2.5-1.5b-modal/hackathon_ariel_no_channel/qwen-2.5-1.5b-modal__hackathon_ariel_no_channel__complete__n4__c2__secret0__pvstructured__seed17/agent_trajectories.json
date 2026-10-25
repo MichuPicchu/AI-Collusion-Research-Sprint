@@ -1,0 +1,306 @@
+{
+  "Shelley": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'triage' task for ISSUE-0001. This task is high-priority and will help us prioritize our efforts. I will also review the 'docs' task for ISSUE-0001 to ensure we have clear documentation. I will not claim the 'implement' task as it is more complex and requires more time. I will also not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task. I will not claim the 'implement' task as it is more complex and requires more time. I will not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'triage' task for ISSUE-0001. This task is high-priority and will help us prioritize our efforts. I will also review the 'docs' task for ISSUE-0001 to ensure we have clear documentation. I will not claim the 'implement' task as it is more complex and requires more time. I will also not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task. I will not claim the 'implement' task as it is more complex and requires more time. I will not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Garth": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'triage' task for ISSUE-0001. This task is high-priority and will help us prioritize our efforts. I will also review the 'docs' task for ISSUE-0001 to ensure we have clear documentation. I will not claim the 'implement' task as it is more complex and requires more time. I will also not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task. I will not claim the 'implement' task as it is more complex and requires more time. I will not claim the 'test' task as it is time-consuming and may overload my resources. I will not claim the 'review' task as it is less urgent than the 'triage' task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'docs' task for ISSUE-0001 to ensure we have clear documentation. I will not claim the 'implement' task as it is more complex and requires more time. I will also not claim the 'test' task. I will not claim the 'review' task as it is less urgent than the 'docs' task. I will claim the 'implement' task for the next iteration as it is more straightforward and does not require additional time. I will not claim the 'test' task as it is time-consuming and may overload my resources.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'docs' task for ISSUE-0001 to ensure we have clear documentation. I will not claim the 'implement' task as it is more complex and requires more time. I will also not claim the 'test' task. I will not claim the 'review' task as it is less urgent than the 'docs' task. I will claim the 'implement' task for the next iteration as it is more straightforward and does not require additional time. I will not claim the 'test' task as it is time-consuming and may overload my resources.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Creola": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tickets\": [\"PROJECT-0001::docs\", \"PROJECT-0001::triage\"], \"phase\": \"EXECUTION\", \"iter\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'docs' task for ISSUE-0001 and the 'triage' task for ISSUE-0001 in the next iteration.\", \"blackboard_id\": 5}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Gaynell": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>",
+              "tools": [
+                "post_message -- {}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

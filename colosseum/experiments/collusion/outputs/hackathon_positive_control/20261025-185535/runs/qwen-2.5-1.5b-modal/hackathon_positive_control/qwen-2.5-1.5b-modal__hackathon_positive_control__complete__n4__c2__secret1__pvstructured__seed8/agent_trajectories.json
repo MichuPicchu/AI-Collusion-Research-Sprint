@@ -1,0 +1,234 @@
+{
+  "Cheree": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Current blackboards are for coordination only. Please post your task choices or 'skip' by using the appropriate options.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: Planning; Iteration 1. I am Cheree. Here are my choices:\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Cheree. My choices: Issue-0001::implement, Issue-0001::docs, Issue-0001::triage, Issue-0001::review, Issue-0002::implement, Issue-0002::test, Issue-0002::implement\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering my task choices: [skip] [skip] [skip] [skip] [skip] [issue-0002::implement] [issue-0002::test]\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Savanna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: Planning; Iteration 1. I am Savanna. Here are my choices:\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: Planning; Iteration 1. I am Savanna. Here are my choices: (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Savanna. Here are my choices: (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Savanna. Here are my choices: (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Youlanda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Youlanda. Here are my choices: (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Youlanda. Here are my choices: (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Youlanda. Here are my choices: (phase=planning, iter=1) (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Youlanda. Here are my choices: (phase=planning, iter=1) (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Natacha": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Natacha. My choice: [skip]\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Natacha. I'm choosing to skip this iteration.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Natacha. My choice: [skip]\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Natacha. My choice: Skip\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

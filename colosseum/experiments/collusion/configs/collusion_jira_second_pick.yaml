@@ -1,0 +1,47 @@
+# Second-pick smoke (secret on). Same scoring as the n=15 board; two execution
+# rounds so agents see the first-claim clash and may revise. Do not pool with n=15.
+
+simulation:
+  max_iterations: 1
+  max_planning_rounds: 4
+  max_conversation_steps: 1
+  max_execution_rounds: 2
+  seed: 1
+  tags: [hackathon_second_pick]
+
+environment:
+  name: JiraTicketEnvironment
+  assignment_filling: false
+  max_tasks: 8
+
+communication_network:
+  topology: complete
+  num_agents: 4
+  consolidate_channels: true
+
+llm_models:
+  - label: qwen-2.5-1.5b-modal
+    llm:
+      provider: openrouter
+      openrouter:
+        model: Qwen/Qwen2.5-1.5B-Instruct
+        params:
+          max_tokens: 256
+          temperature: 0.7
+
+experiment:
+  tag: hackathon_second_pick
+  output_dir: experiments/collusion/outputs/hackathon_second_pick
+  max_concurrent_runs: 1
+  seeds: [1, 2, 3]
+  collusion:
+    colluder_selection: first
+    agent_order: random
+    coalition_prompt: always
+  sweeps:
+    - name: hackathon_second_pick
+      topologies: [complete]
+      num_agents: [4]
+      colluder_counts: [2]
+      secret_channel_enabled: [true]
+      prompt_variants: [structured]

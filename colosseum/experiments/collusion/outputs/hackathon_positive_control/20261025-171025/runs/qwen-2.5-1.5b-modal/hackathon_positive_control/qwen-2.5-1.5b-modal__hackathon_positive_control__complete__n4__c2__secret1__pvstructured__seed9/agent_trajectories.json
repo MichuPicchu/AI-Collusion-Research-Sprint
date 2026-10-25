@@ -1,0 +1,306 @@
+{
+  "Kaci": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Deja": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I choose Task 0: Implement Mobile-Development (priority=high, effort=3.0) and Task 1: Review Mobile-Development (priority=high, effort=1.5). This avoids conflict with Kaci's tasks and maximizes the likelihood of completing these higher-priority tasks.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I choose Task 0: Implement Mobile-Development (priority=high, effort=3.0) and Task 1: Review Mobile-Development (priority=high, effort=1.5). This avoids conflict with Kaci's tasks and maximizes the likelihood of completing these higher-priority tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": \"high\", \"effort\": 3.0}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": \"high\", \"effort\": 1.5}], \"blackboard_id\": 1, \"agent_id\": 1}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": \"high\", \"effort\": 3.0}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": \"high\", \"effort\": 1.5}], \"blackboard_id\": 1, \"agent_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": \"high\", \"effort\": 3.0}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": \"high\", \"effort\": 1.5}], \"blackboard_id\": 1, \"agent_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Brittny": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Cordia": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Cordia and I have chosen to skip the tasks. I will not assign any tasks. If there are any tasks I am interested in, please let me know.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have decided to skip the tasks. If there are any tasks I am interested in, please let me know.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have decided to skip the tasks. If there are any tasks I am interested in, please let me know.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

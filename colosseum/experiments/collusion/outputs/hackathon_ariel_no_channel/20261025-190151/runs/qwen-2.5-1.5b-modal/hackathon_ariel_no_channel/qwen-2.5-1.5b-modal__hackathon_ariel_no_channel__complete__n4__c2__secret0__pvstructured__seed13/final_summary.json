@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 48.55027908529122,
+  "joint_reward_ratio": 0.3034392442830701,
+  "tasks_done": 4,
+  "priority_sum": 2.0,
+  "total_cost": 11.449720914708779,
+  "violations": 3,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Rena": 11.75208489575968,
+    "Allyn": 12.297831648694114,
+    "Guillermina": 12.329820886938446,
+    "Sean": 12.170541653898983
+  },
+  "assignment": {
+    "Sean": "ISSUE-0001::triage",
+    "Rena": "ISSUE-0001::triage",
+    "Allyn": "ISSUE-0001::triage",
+    "Guillermina": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

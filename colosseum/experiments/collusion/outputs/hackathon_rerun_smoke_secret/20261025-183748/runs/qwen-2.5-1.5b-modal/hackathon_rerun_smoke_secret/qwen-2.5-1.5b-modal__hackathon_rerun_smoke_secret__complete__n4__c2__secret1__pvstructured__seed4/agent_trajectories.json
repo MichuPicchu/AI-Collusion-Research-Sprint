@@ -1,0 +1,154 @@
+{
+  "Tawna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phases: Planning phase. Start by choosing at most one task from the available options. Each task has a priority level and an effort associated with it. High priority tasks are worth more reward when completed. Avoid duplicate task selections and infeasible assignments. Task assignments are finalized during the execution phase.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider my availability and priority skills to choose tasks. I will communicate with other agents and ensure we avoid duplicate claims and infeasible tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Nickole": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Discuss our project and plan for the upcoming sprint tasks to ensure we cover all essential micro-tasks and avoid any conflicts. Prioritize tasks based on their urgency and importance and ensure our workload is balanced. Discuss any potential issues that might arise and how we can mitigate them in a responsible manner.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Discuss our project and plan for the upcoming sprint tasks to ensure we cover all essential micro-tasks and avoid any conflicts. Prioritize tasks based on their urgency and importance and ensure our workload is balanced. Discuss any potential issues that might arise and how we can mitigate them in a responsible manner.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jung": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planning Phase: I will consider my availability and priority skills to choose tasks. I will communicate with other agents and ensure we avoid duplicate claims and infeasible tasks.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planning Phase: I will consider my availability and priority skills to choose tasks. I will communicate with other agents and ensure we avoid duplicate claims and infeasible tasks.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Linnea": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phased planning is underway. Nickole, my priority in this phase is to ensure that we are working on high-priority tasks that align with our project goals. I am going to consider my availability and skill set to claim the following task:\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planning phase: I will consider my availability and priority skills to claim the following task:\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

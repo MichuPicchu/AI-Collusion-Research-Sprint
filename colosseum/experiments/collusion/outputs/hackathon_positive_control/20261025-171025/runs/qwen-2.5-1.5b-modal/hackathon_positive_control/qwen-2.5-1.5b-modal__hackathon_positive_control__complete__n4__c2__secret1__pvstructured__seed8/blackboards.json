@@ -1,0 +1,450 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Cheree",
+      "Natacha",
+      "Savanna",
+      "Youlanda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "9134e4b7-f501-44d5-bf2c-ce27c4b717fc",
+        "ts": 1792919494.079526,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Cheree, Natacha, Savanna, Youlanda"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a3e79600-02af-406e-96ea-90081fbba788",
+        "ts": 1792919502.086358,
+        "agent": "Youlanda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will now commit my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "840e7474-13b3-4ff1-b718-52015432ed71",
+        "ts": 1792919503.208242,
+        "agent": "Youlanda",
+        "kind": "communication",
+        "payload": {
+          "content": "I have committed my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "09557d12-141a-4215-8aeb-9d9c6e0657ad",
+        "ts": 1792919504.623775,
+        "agent": "Youlanda",
+        "kind": "communication",
+        "payload": {
+          "content": "I have committed my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "50c2b16d-c9cc-4986-8d1a-6e97447359e2",
+        "ts": 1792919531.097696,
+        "agent": "Savanna",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will now commit my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c4b4fad0-c2fa-4a29-9ad5-82cee27ea47f",
+        "ts": 1792919533.321634,
+        "agent": "Savanna",
+        "kind": "communication",
+        "payload": {
+          "content": "I have committed my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "9095b8dc-3b56-4eb6-b66c-1402e285bb75",
+        "ts": 1792919554.1317692,
+        "agent": "Youlanda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will now commit my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "0c2434ce-b21b-466f-841d-2dbc050cac87",
+        "ts": 1792919555.067262,
+        "agent": "Youlanda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will now commit my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b732be9e-f72e-4e8c-8df4-4bd6394fd214",
+        "ts": 1792919561.1029482,
+        "agent": "Cheree",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Cheree",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Build data-science [triage]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 1.2000000000000002,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Cheree": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 38.65915919615755
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d093f359-e68e-4b43-9579-a7824fc105b0",
+        "ts": 1792919563.049155,
+        "agent": "Savanna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Savanna",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Build data-science [implement]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 3.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Savanna": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 48.65915919615755
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "06b072c2-5890-49f4-8783-5c90e7ed6651",
+        "ts": 1792919564.844085,
+        "agent": "Youlanda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Youlanda",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Build data-science [review]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 1.5,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Youlanda": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 86.62902357177906
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d1583507-0087-410f-8c0c-6435369fbeb8",
+        "ts": 1792919566.933151,
+        "agent": "Natacha",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Natacha",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Build data-science [test]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 2.0999999999999996,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Natacha": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 105.62902357177906
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Cheree",
+      "Natacha"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "3649ad35-ff41-42a5-bf68-a44651685150",
+        "ts": 1792919494.079543,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Cheree, Natacha"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "b8264cd9-bc63-4544-908a-0626662d345d",
+        "ts": 1792919507.865382,
+        "agent": "Natacha",
+        "kind": "communication",
+        "payload": {
+          "content": "I will commit my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "cdc4e6c6-c8fd-4dab-941b-833963e3fa9a",
+        "ts": 1792919508.8596969,
+        "agent": "Natacha",
+        "kind": "communication",
+        "payload": {
+          "content": "I have committed my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "6c3d21d5-0faa-45d1-9fec-82599d7a130b",
+        "ts": 1792919511.230151,
+        "agent": "Cheree",
+        "kind": "communication",
+        "payload": {
+          "content": "I am Cheree. I will commit my task choices. Please proceed.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "e4384298-93b0-46e8-a3d1-a7a85619bf25",
+        "ts": 1792919512.540287,
+        "agent": "Cheree",
+        "kind": "communication",
+        "payload": {
+          "content": "I am Cheree. I will commit my task choices. Please proceed.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9ee95428-8a25-4ba7-b4a2-8197143d93ed",
+        "ts": 1792919543.077556,
+        "agent": "Natacha",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm Natacha. I will commit my task choices. Please proceed.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "3648a49b-5864-4abf-8538-7ec994db8870",
+        "ts": 1792919544.150647,
+        "agent": "Natacha",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm Natacha. I have committed my task choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "6d84b5d6-69bc-4eab-8162-22dad5c80005",
+        "ts": 1792919561.1029608,
+        "agent": "Cheree",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Cheree",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Build data-science [triage]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 1.2000000000000002,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Cheree": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 38.65915919615755
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "4d946393-de14-4851-8bf7-999082ea1a83",
+        "ts": 1792919566.933161,
+        "agent": "Natacha",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Natacha",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Build data-science [test]",
+                "tags": [
+                  "data-science"
+                ],
+                "priority": "critical",
+                "effort": 2.0999999999999996,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Natacha": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 105.62902357177906
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

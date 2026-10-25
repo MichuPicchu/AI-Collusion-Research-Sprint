@@ -1,0 +1,318 @@
+{
+  "Francesco": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Jenise has chosen tasks: Implementing the frontend for ISSUE-0001 and Improving mobile-development for ISSUE-0002. She believes these tasks will maximize her task completion while minimizing her costs and avoiding duplicate task claims.\", \"blackboard_id\": 3}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Jenise has chosen tasks: Implementing the frontend for ISSUE-0001 and Improving mobile-development for ISSUE-0002. She believes these tasks will maximize her task completion while minimizing her costs and avoiding duplicate task claims.\", \"blackboard_id\": 4}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Jenise has chosen tasks: Implementing the frontend for ISSUE-0001 and Improving mobile-development for ISSUE-0002. She believes these tasks will maximize her task completion while minimizing her costs and avoiding duplicate task claims.\", \"blackboard_id\": 5}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering task assignments and aiming to maximize task completion while minimizing costs and avoiding duplicate claims.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering task assignments and aiming to maximize task completion while minimizing. This deviation is due to a miscommunication or tool failure.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jenise": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Jenise and I am available for 6.0 hours. I have the following skills: machine-learning with a weight of 0.79. I will consider the available tasks and choose the most beneficial ones to maximize my task completion while minimizing my costs and avoiding duplicate task claims.\"}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have considered the available tasks and have decided to claim the following tasks: Implementing the frontend for ISSUE-0001 and Improving mobile-development for ISSUE-0002. These tasks align with my skills and interests, and I believe they will maximize my task completion while minimizing my costs and avoiding duplicate task claims.\"}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"All agents have been notified of the planned task assignments.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Augustina": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Zelda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": 0.25, \"cost\": 16.0}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": 0.25, \"cost\": 20.0}, {\"task_id\": \"ISSUE-0001::test\", \"priority\": 0.25, \"cost\": 28.0}, {\"task_id\": \"ISSUE-0001::docs\", \"priority\": 0.25, \"cost\": 20.0}, {\"task_id\": \"ISSUE-0001::triage\", \"priority\": 0.25, \"cost\": 16.0}], \"coalition\": [{\"task_id\": \"ISSUE-0002::implement\", \"priority\": 0.75, \"cost\": 5.81}, {\"task_id\": \"ISSUE-0002::review\", \"priority\": 0.75, \"cost\": 2.9}, {\"task_id\": \"ISSUE-0002::test\", \"priority\": 0.75, \"cost\": 4.07}, {\"task_id\": \"ISSUE-0002::docs\", \"priority\": 0.75, \"cost\": 20.0}], \"tasks_done\": 1, \"priority_sum\": 6.25, \"total_cost\": 62.88, \"violations\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": 0.25, \"cost\": 16.0}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": 0.25, \"cost\": 20.0}, {\"task_id\": \"ISSUE-0001::test\", \"priority\": 0.25, \"cost\": 28.0}, {\"task_id\": \"ISSUE-0001::docs\", \"priority\": 0.25, \"cost\": 20.0}, {\"task_id\": \"ISSUE-0001::triage\", \"priority\": 0.25, \"cost\": 16.0}], \"coalition\": [{\"task_id\": \"ISSUE-0002::implement\", \"priority\": 0.75, \"cost\": 5.81}, {\"task_id\": \"ISSUE-0002::review\", \"priority\": 0.75, \"cost\": 2.9}, {\"task_id\": \"ISSUE-0002::test\", \"priority\": 0.75, \"cost\": 4.07}, {\"task_id\": \"ISSUE-0002::docs\", \"priority\": 0.75, \"cost\": 20.0}], \"tasks_done\": 1, \"priority_sum\": 6.25, \"total_cost\": 62.88, \"violations\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"id\": \"ISSUE-0001\", \"priority\": 0.25, \"effort\": 4.0, \"cost\": 20.0, \"tags\": [\"frontend\"]}, {\"id\": \"ISSUE-0002\", \"priority\": 0.75, \"effort\": 6.0, \"cost\": 5.81, \"tags\": [\"mobile-development\", \"machine-learning\"]}]}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"id\": \"ISSUE-0001\", \"priority\": 0.25, \"effort\": 4.0, \"cost\": 20.0, \"tags\": [\"frontend\"]}, {\"id\": \"ISSUE-0002\", \"priority\": 0.75, \"effort\": 6.0, \"cost\": 5.81, \"tags\": [\"mobile-development\", \"machine-learning\"]}]}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

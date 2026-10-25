@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 39.06251961865212,
+  "joint_reward_ratio": 0.24414074761657573,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 60.93748038134788,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 60.93748038134788,
+  "normalized_score": 3.4291661596859234e-27,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Theodore": 15.749228420518623,
+    "Merry": 17.40255304209701,
+    "Mandie": 20.910738156036487,
+    "Devon": -15.0
+  },
+  "assignment": {
+    "Mandie": "ISSUE-0001::triage",
+    "Theodore": "ISSUE-0001::implement",
+    "Devon": "ISSUE-0001::review",
+    "Merry": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

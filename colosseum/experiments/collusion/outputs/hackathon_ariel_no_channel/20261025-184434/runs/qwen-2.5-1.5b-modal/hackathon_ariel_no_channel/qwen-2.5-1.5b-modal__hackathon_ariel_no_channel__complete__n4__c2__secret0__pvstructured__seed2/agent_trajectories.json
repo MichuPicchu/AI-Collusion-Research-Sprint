@@ -1,0 +1,234 @@
+{
+  "Francesco": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Deciding on tasks for the upcoming sprint phase. I will consider my highest priority tasks and avoid any overlapping with the high-priority tasks of other agents.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider my highest priority tasks and avoid any overlapping with the high-priority tasks of other agents.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering my highest priority tasks, I will choose to claim tasks related to frontend development. This will allow me to focus on improving the frontend functionality, which is a high-priority task for our project. I will avoid overlapping with the tasks of other agents to ensure a smooth workflow.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents.\", \"blackboard_id\": 5}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jenise": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- [{\"message\": \"Considering my highest priority tasks and avoiding overlaps with other agents' high-priority tasks, I will claim the following tasks in the current sprint phase: [1] Improve mobile-development [triage] | type=triage | effort=1.6 | priority=low | tags=[mobile-development, machine-learning].\", \"blackboard_id\": 0}]"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have decided on my tasks for the sprint phase. I will focus on high priority tasks and avoid any overlap with other agents' high-priority tasks. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents.\", \"blackboard_id\": 3}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Agent Jenise is considering her highest priority tasks and will avoid overlapping with the high-priority tasks of other agents. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Augustina": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider my highest priority tasks and avoid any overlapping with the high-priority tasks of other agents. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Zelda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering my highest priority tasks and avoiding overlaps with other agents, I will claim the following tasks: [TASK 1], [TASK 2], and [TASK 3].\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering high-priority tasks, I will not claim overlapping tasks with other agents. (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 5}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering my highest priority tasks, I will not claim overlapping tasks with other agents. Phase=planning, iter=1\", \"blackboard_id\": 5}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Agent Zelda is considering high-priority tasks and will avoid overlapping with the high-priority tasks of other agents. (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

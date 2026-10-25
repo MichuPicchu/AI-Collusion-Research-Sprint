@@ -1,0 +1,191 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Boris",
+      "Ciara",
+      "Drew",
+      "Tara"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "15e7c043-7ff2-4d3d-8ef8-9fb74ca67bdb",
+        "ts": 1792920403.975646,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Boris, Ciara, Drew, Tara"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2ae4a107-6942-4b82-8547-16102cfb1017",
+        "ts": 1792920453.4395049,
+        "agent": "Ciara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ciara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Ciara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 14.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b5520023-ce51-47f6-b212-f22a59a7fa20",
+        "ts": 1792920454.97078,
+        "agent": "Tara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Tara",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Improve mobile-development [implement]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 4.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Tara": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 40.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ab2afee9-24ac-4c6e-be48-3a911f449ee6",
+        "ts": 1792920456.608427,
+        "agent": "Boris",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Boris",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Boris": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 50.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4fbc8e8c-ced2-48a6-b0bd-b64e30ad2b75",
+        "ts": 1792920457.9539819,
+        "agent": "Drew",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Drew",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve mobile-development [test]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.8,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Drew": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 52.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

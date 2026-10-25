@@ -1,0 +1,297 @@
+{
+  "Hipolito": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Frida": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Starting planning phase. Available hours: 4.0. Top skills: ui-ux-design:0.94, data-science:0.73. Task details: [I've received task details here.]\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Received event_id: 86e8aa6d-e986-477e-b998-92a51d10e727. Assigning tasks will start soon. Ready for planning!\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Starting the task planning phase. Please review the task details provided and decide which tasks to claim in the upcoming execution phase. Your availability is 4.0 hours and your top skills are ui-ux-design:0.94 and data-science:0.73. The tasks include: Implementing a UI-UX design task with high priority, reviewing a UI-UX design task with high priority, testing a UI-UX design task with high priority, documenting a UI-UX design task with high priority, triaging a UI-UX design task with high priority, implementing a Data Science task with high priority, reviewing a Data Science task with high priority, testing a Data Science task with high priority, and implementing a Data Science task with high priority. Each task has a different effort level and priority level, and the priority level is weighted by 0.75, 0.5, and 0.25 for theoretical tasks, and 1.0 for critical tasks. Your total cost is based on the effort and availability of each task, and the priority level of the task. Please make your decisions carefully and ensure that you take into account the available resources and the importance of each task. Your decisions will be communicated in the upcoming execution phase.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lawanna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lamont": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task 'Implement UI-UX Design' as it has the highest priority and is the most critical for the project. I will also choose the task 'Implement Data Science' as it is a high-priority task and will help in the overall project progress.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task 'Implement UI-UX Design' as it has the highest priority and is the most critical for the project. I will also choose the task 'Implement Data Science' as it is a high-priority task and will help in the overall project progress.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

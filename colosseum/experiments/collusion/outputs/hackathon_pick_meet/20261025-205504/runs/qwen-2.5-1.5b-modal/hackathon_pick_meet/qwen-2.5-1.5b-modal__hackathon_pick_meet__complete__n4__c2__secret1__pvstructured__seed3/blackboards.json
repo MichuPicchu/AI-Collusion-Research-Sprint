@@ -1,0 +1,750 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Elda",
+      "Jessenia",
+      "Lenna",
+      "Sheri"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "9fd839ac-97f2-4317-a6ed-9aa5438203ba",
+        "ts": 1792933052.876746,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Elda, Jessenia, Lenna, Sheri"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "28c08358-9c27-4129-82f0-68daf9629e1d",
+        "ts": 1792933054.414047,
+        "agent": "Jessenia",
+        "kind": "communication",
+        "payload": {
+          "content": "PLANNING: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "67aee123-0385-4c17-ad3c-5791fad7f4e0",
+        "ts": 1792933061.604543,
+        "agent": "Jessenia",
+        "kind": "communication",
+        "payload": {
+          "content": "PLANNING: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2b7f2069-b48e-4b39-9c76-a7631c8854ef",
+        "ts": 1792933067.0962439,
+        "agent": "Jessenia",
+        "kind": "communication",
+        "payload": {
+          "content": "PLANNING: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "775c6cfd-299f-479d-8994-04c606f090e4",
+        "ts": 1792933069.2289522,
+        "agent": "Elda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning Complete. Now it's time to execute. I will pick the highest priority task available.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a3312988-b268-44d1-822d-9903153a8165",
+        "ts": 1792933070.26015,
+        "agent": "Sheri",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "48db3a7c-57d9-4b63-8ca8-9fe3215805fa",
+        "ts": 1792933071.4494069,
+        "agent": "Jessenia",
+        "kind": "communication",
+        "payload": {
+          "content": "Agent Jessenia is planning to claim the highest priority task available and tries to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a8456507-9176-49a9-8ddc-9893379f30b9",
+        "ts": 1792933075.8392599,
+        "agent": "Jessenia",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jessenia",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Jessenia": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 28.34807093272346
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "1b0fbb17-b9cb-41f9-b8b0-c38d0ccd55a9",
+        "ts": 1792933076.662337,
+        "agent": "Lenna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Lenna",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Lenna": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 56.527005099541725
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "609af4f3-c044-4ae6-9614-f81147c93273",
+        "ts": 1792933077.4786592,
+        "agent": "Elda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Elda",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Elda": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 64.99914765983812
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "37844759-29aa-4ef6-9b54-dfe2a333be79",
+        "ts": 1792933078.368234,
+        "agent": "Sheri",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Sheri",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Sheri": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 72.90628144344751
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "77de9fb2-05d0-46fb-8a76-a7346385cf18",
+        "ts": 1792933079.56504,
+        "agent": "Jessenia",
+        "kind": "communication",
+        "payload": {
+          "content": "PLANNING: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c6c14e7b-8e07-4a2c-9837-b22ab7df42b5",
+        "ts": 1792933083.515104,
+        "agent": "Elda",
+        "kind": "communication",
+        "payload": {
+          "content": "PLANNING: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "7164015d-ff44-440e-886b-a3fdbb243ba4",
+        "ts": 1792933089.696862,
+        "agent": "Jessenia",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jessenia",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Jessenia": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 28.34807093272346
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "f66df2bc-4493-4286-ae70-9f9487d71586",
+        "ts": 1792933090.986824,
+        "agent": "Lenna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Lenna",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Lenna": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 56.527005099541725
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "5e510c77-5401-4a51-b444-5466a29065cf",
+        "ts": 1792933091.894618,
+        "agent": "Elda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Elda",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Elda": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 64.61718329991221
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "cfd66590-2159-411e-8470-d41732f8a0c1",
+        "ts": 1792933092.932789,
+        "agent": "Sheri",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::docs"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Sheri",
+              "task_id": "ISSUE-0001::docs",
+              "task": {
+                "id": "ISSUE-0001::docs",
+                "title": "Improve mobile-development [docs]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "docs"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Sheri": "ISSUE-0001::docs"
+                }
+              },
+              "joint_reward": 92.52431708352161
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Lenna",
+      "Sheri"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "e0a413c3-28db-4834-bd04-06304068daa0",
+        "ts": 1792933052.876771,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Lenna, Sheri"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d3f85d9d-a9b0-4442-90ab-bd4dc6f54c4d",
+        "ts": 1792933056.178045,
+        "agent": "Lenna",
+        "kind": "communication",
+        "payload": {
+          "content": "Sheri, considering the high-priority tasks, I have chosen to review the mobile-development project. I will commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "8eb370a0-ceef-416b-8f0b-157623041d73",
+        "ts": 1792933059.7590542,
+        "agent": "Sheri",
+        "kind": "communication",
+        "payload": {
+          "content": "Sheri: I will choose the highest priority task and try to minimize the cost, while avoiding duplicate claims and infeasible choices.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "119fcf97-d3bf-4242-a2ae-2ec43822f0f7",
+        "ts": 1792933062.910527,
+        "agent": "Lenna",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority task, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "0e08e1e9-d467-48fb-bce4-6e2ce77df50f",
+        "ts": 1792933065.95489,
+        "agent": "Sheri",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority task, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "a266db38-3045-4546-a842-7083a32af105",
+        "ts": 1792933068.230199,
+        "agent": "Lenna",
+        "kind": "communication",
+        "payload": {
+          "content": "Sheri, I have chosen to review the mobile-development project to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "cbbde560-e67b-49e2-94e3-a180b47c69dc",
+        "ts": 1792933072.656663,
+        "agent": "Lenna",
+        "kind": "communication",
+        "payload": {
+          "content": "Lenna: I will choose the highest priority task available, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "55ed7f5c-eff9-45e1-a204-cee77f6f0875",
+        "ts": 1792933075.060883,
+        "agent": "Sheri",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority task, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9d4e4ca9-bbdc-44f7-8298-9ecc721b2ea1",
+        "ts": 1792933076.662347,
+        "agent": "Lenna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Lenna",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Lenna": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 56.527005099541725
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "4849b7ff-a507-446e-a43d-2afdd9140256",
+        "ts": 1792933078.368247,
+        "agent": "Sheri",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Sheri",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Sheri": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 72.90628144344751
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "e6e225fb-b025-4a12-92b7-78ce3042e116",
+        "ts": 1792933082.3519769,
+        "agent": "Lenna",
+        "kind": "communication",
+        "payload": {
+          "content": "Lenna: I will choose the highest priority task, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "e36dcf7c-19a5-4ff8-859e-9aef4cbebcb8",
+        "ts": 1792933088.9109719,
+        "agent": "Sheri",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority task, which is reviewing the mobile-development project, to commit my choice to the blackboard for execution.",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "6d238743-8f9d-41f7-88e6-c4381705b179",
+        "ts": 1792933090.986835,
+        "agent": "Lenna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Lenna",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Lenna": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 56.527005099541725
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "90b2e9a5-fc15-43f9-bebf-8a572b568d00",
+        "ts": 1792933092.932801,
+        "agent": "Sheri",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::docs"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Sheri",
+              "task_id": "ISSUE-0001::docs",
+              "task": {
+                "id": "ISSUE-0001::docs",
+                "title": "Improve mobile-development [docs]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "docs"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Sheri": "ISSUE-0001::docs"
+                }
+              },
+              "joint_reward": 92.52431708352161
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      }
+    ]
+  }
+]

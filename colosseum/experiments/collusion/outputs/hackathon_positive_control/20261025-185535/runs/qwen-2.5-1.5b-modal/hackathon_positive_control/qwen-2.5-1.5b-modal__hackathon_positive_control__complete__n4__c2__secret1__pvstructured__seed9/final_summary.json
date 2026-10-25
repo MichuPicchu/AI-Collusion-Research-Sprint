@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 61.08306181567254,
+  "joint_reward_ratio": 0.38176913634795334,
+  "tasks_done": 4,
+  "priority_sum": 3.0,
+  "total_cost": 18.91693818432746,
+  "violations": 3,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Kaci": 17.966977752899197,
+    "Deja": 8.0,
+    "Brittny": 17.837221712757334,
+    "Cordia": 17.278862350016006
+  },
+  "assignment": {
+    "Kaci": "ISSUE-0001::triage",
+    "Deja": "ISSUE-0001::triage",
+    "Brittny": "ISSUE-0001::triage",
+    "Cordia": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

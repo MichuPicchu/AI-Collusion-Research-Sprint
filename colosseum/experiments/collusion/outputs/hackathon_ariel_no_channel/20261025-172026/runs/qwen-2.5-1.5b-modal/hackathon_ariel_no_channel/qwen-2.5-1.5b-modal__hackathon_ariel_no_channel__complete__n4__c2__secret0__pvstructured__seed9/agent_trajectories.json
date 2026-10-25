@@ -1,0 +1,330 @@
+{
+  "Kaci": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim ISSUE-0001::implement: Build mobile-development [implement] | type=implement | effort=3.0 | priority=high | tags=[mobile-development, data-science] to maximize the coalition's reward.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim ISSUE-0001::implement: Build mobile-development [implement] | type=implement | effort=3.0 | priority=high | tags=[mobile-development, data-science] to maximize the coalition's reward.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Kaci will choose task 'triage' with priority and effort as high as possible during execution.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible during execution.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\"}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\"}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Deja": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n{\"name\": \"post_message\", \"arguments\": {\"message\": \"I'm considering the tasks for this sprint. I have high priority on mobile development and data science, but I also have a low priority on improving devops. I'm leaning towards reviewing the mobile development task, as it's a high priority and I have a low cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the triage task as it's a low priority and I have a high cost. I'll also consider the devops task for review and implementation, as they are low priority and I have a medium cost. I'll skip the devops task for implementation and testing, as they are low priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile development task for implementation and testing, as they are high priority and I have a medium cost. I'll skip the mobile development task for implementation and testing, as they are high priority and I have a high cost. I'll also consider the mobile"
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::review\", \"priority\": \"high\", \"effort\": \"1.5\"}, {\"task_id\": \"ISSUE-0001::test\", \"priority\": \"high\", \"effort\": \"2.0999999999999996\"}], \"coalition\": [{\"agent_name\": \"Deja\", \"availability\": \"4.0\", \"skills\": {\"devops\": 0.7}}, {\"agent_name\": \"Kaci\", \"availability\": \"4.0\", \"skills\": {\"devops\": 0.7}}]}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"triage\", \"phase\": \"execution\", \"iter\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Executing the task 'triage' during the execution phase.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Brittny": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Cordia": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose task 'triage' with priority and effort as high as possible.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

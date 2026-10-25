@@ -1,0 +1,234 @@
+{
+  "Shari": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"I ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Arletha": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully. (phase=planning, iter=1)\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll review my options and make a decision. I'll be cautious to avoid duplicate task claims and infeasible assignments. I aim to minimize the total cost while maximizing my tasks completed. Let me think this through carefully.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will review the tasks provided and make a decision on my own, ensuring I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to minimize the total cost for my tasks. Let me think carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Junko": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task next.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll choose the task next.\", \"blackboard_id\": 3}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll choose the task next.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Myrle": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll review my options and make a decision. I'll be cautious to avoid duplicate task claims and infeasible assignments. I aim to minimize the total cost while maximizing my tasks completed. Let me think this through carefully.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll review my options and make a decision. I'll be cautious to avoid duplicate task claims and infeasible assignments. I aim to minimize the total cost while maximizing my tasks completed. Let me think this through carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider the tasks provided and make a decision on my own, but I need to ensure that I don't choose the same task as another agent and that I don't commit to an infeasible task. I also want to make sure I minimize the total cost for my tasks. Let me think about this carefully.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks provided, I'll choose the task next.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "Francesco": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Francesco. I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Francesco. I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task. (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: Execution\\nIteration: 1\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jenise": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Jenise is considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Jenise is considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Jenise. I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend, [implement] ISSUE-0002::mobile-development, [review] ISSUE-0002::mobile-development, [test] ISSUE-0002::mobile-development. I will not claim any task. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now.\", \"blackboard_id\": 4}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Augustina": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Augustina. I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend. I will not claim any more tasks for now. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Augustina. I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Zelda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend. I will not claim any task. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now.\", \"blackboard_id\": 4}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Zelda. I am considering the following tasks: [implement] ISSUE-0001::frontend, [review] ISSUE-0001::frontend, [test] ISSUE-0001::frontend, [docs] ISSUE-0001::frontend, [triage] ISSUE-0001::frontend. I will not claim any task. (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am Zelda. I will be implementing ISSUE-0001::frontend and reviewing ISSUE-0001::frontend. I will not be working on any more tasks for now. (phase=planning, iter=1) (phase=planning, iter=1) (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

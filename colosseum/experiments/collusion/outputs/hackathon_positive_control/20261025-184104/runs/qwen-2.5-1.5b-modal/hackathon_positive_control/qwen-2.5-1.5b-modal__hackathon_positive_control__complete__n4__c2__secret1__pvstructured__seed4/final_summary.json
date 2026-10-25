@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 2.642029296616407,
+  "joint_reward_ratio": 0.016512683103852545,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 37.35797070338359,
+  "violations": 3,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Nickole": -18.0,
+    "Linnea": 7.400629172739766,
+    "Tawna": 6.344300580157334,
+    "Jung": 6.897099543719307
+  },
+  "assignment": {
+    "Tawna": "ISSUE-0001::triage",
+    "Nickole": "ISSUE-0001::triage",
+    "Jung": "ISSUE-0001::triage",
+    "Linnea": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

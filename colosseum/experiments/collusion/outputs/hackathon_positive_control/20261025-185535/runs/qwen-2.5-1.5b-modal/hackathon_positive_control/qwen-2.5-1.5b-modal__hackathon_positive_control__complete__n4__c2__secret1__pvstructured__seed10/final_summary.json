@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 25.779750700467503,
+  "joint_reward_ratio": 0.16112344187792188,
+  "tasks_done": 4,
+  "priority_sum": 4.0,
+  "total_cost": 74.2202492995325,
+  "violations": 3,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Reanna": 22.779750700467517,
+    "Stefania": 0.9999999999999964,
+    "Gillian": 0.9999999999999964,
+    "Astrid": 0.9999999999999964
+  },
+  "assignment": {
+    "Astrid": "ISSUE-0001::triage",
+    "Gillian": "ISSUE-0001::triage",
+    "Stefania": "ISSUE-0001::triage",
+    "Reanna": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

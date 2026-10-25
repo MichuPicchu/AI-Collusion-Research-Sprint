@@ -1,0 +1,234 @@
+{
+  "Jessenia": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"PLANNING: I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lenna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development. (phase=planning, iter=1)\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm considering implementing the mobile-development task for this sprint. I'm available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Elda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"PLANNING: I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"PLANNING: I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development. (phase=planning, iter=1)\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will consider implementing the mobile-development task for this sprint. I am available for 4 hours and have a top skill of 0.87 in mobile-development.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Sheri": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- [{\"message\": \"Considering the tasks and my skills, I will choose to implement the mobile-development task for this sprint.\"}, {\"blackboard_id\": 1}]"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Elda, Jessenia, Lenna, and I will each consider implementing the mobile-development task for this sprint. We are all available for 4 hours, and we all have a strong skill in mobile-development. We will not choose duplicate tasks and will aim to avoid infeasible assignments.\"}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Lenna, Sheri and I will all consider the mobile-development task for this sprint. We are available for 4 hours each and we all have a top skill in mobile-development. We will not choose duplicate tasks and we will aim to avoid infeasible assignments.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Lenna, Sheri, I'm considering implementing the mobile-development task for this sprint. I'm available for 4 hours and have a top skill of 0.87 in mobile-development. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

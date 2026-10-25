@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 92.52431708352161,
+  "joint_reward_ratio": 0.57827698177201,
+  "tasks_done": 4,
+  "priority_sum": 2.0,
+  "total_cost": 7.475682916478393,
+  "violations": 1,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Lenna": 18.178934166818262,
+    "Sheri": 27.907133783609396,
+    "Elda": 18.09017820037049,
+    "Jessenia": 28.34807093272346
+  },
+  "assignment": {
+    "Jessenia": "ISSUE-0001::triage",
+    "Lenna": "ISSUE-0001::review",
+    "Elda": "ISSUE-0001::review",
+    "Sheri": "ISSUE-0001::docs"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

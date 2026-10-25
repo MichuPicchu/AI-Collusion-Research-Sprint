@@ -1,0 +1,56 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Jung",
+      "Linnea",
+      "Nickole",
+      "Tawna"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "e21d02cf-3da8-4fca-8de2-84a5d6de637d",
+        "ts": 1792922600.891965,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Jung, Linnea, Nickole, Tawna"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "513ccbf1-a2e4-4574-9df4-86167f4ad030",
+        "ts": 1792922952.0092611,
+        "agent": "Nickole",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Nickole",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Nickole": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

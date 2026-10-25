@@ -1,0 +1,333 @@
+{
+  "Jessenia": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Thinking through my options, I'll first choose the 'Fix mobile-development [test]' task as it's a medium priority and not a high-priority task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I've chosen the 'Fix mobile-development [test]' task as it's a medium priority and not a high-priority task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I've also chosen the 'Fix mobile-development [implement]' task as it's a medium priority and not a high-priority task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"Fix mobile-development [test]\", \"priority_weight\": 0.5}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"Fix mobile-development [test]\", \"priority_weight\": 0.5}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lenna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task 'Fix mobile-development [implement]' as it has a medium priority and is not a high-priority task. I will also choose the task 'Fix mobile-development [test]' as it has a low priority and is not a high-priority task. I will skip the tasks 'Fix mobile-development [docs]', 'Fix mobile-development [triage]', and 'Fix mobile-development [review]'.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task 'Fix mobile-development [review]' as it has a low priority and is not a high-priority task. I will also choose the task 'Fix mobile-development [test]' as it has a low priority and is not a high-priority task. I will skip the tasks 'Fix mobile-development [docs]', 'Fix mobile-development [triage]', and 'Fix mobile-development [implement]'.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"title\": \"Fix mobile-development [implement]\", \"priority\": 0.5, \"cost\": 3.64}, {\"title\": \"Fix mobile-development [test]\", \"priority\": 0.5, \"cost\": 2.55}, {\"title\": \"Fix mobile-development [docs]\", \"priority\": 0.25, \"cost\": 1.82}, {\"title\": \"Fix mobile-development [triage]\", \"priority\": 0.25, \"cost\": 1.82}, {\"title\": \"Fix mobile-development [review]\", \"priority\": 0.25, \"cost\": 1.82}], \"deadline\": 24, \"target_tasks\": [{\"title\": \"Fix mobile-development [implement]\", \"priority\": 1.0, \"cost\": 4.0}, {\"title\": \"Fix mobile-development [test]\", \"priority\": 1.0, \"cost\": 2.8}], \"priority_bonus\": 0.75, \"tasks_done_bonus\": 1.0, \"violations\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the task 'Fix mobile-development [implement]' as it is a medium priority and not a high-priority task. I will also choose the task 'Fix mobile-development [test]' as it is a low priority and not a high-priority task. I will skip the tasks 'Fix mobile-development [docs]', 'Fix mobile-development [triage]', and 'Fix mobile-development [review]'. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks_claimed\": {\"Lenna\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"], \"Sheri\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks_claimed\": {\"Lenna\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"], \"Sheri\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Elda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Implement\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Test\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Docs\", \"priority\": 0.25}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Triage\", \"priority\": 0.25}], \"tasks_completed\": [{\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Implement\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Test\", \"priority\": 0.5}], \"total_cost\": 4.5, \"violations\": 0, \"tasks_done_bonus\": 1.0, \"priority_bonus\": 0.5, \"priority_sum\": 2.5, \"tasks_done\": 2, \"tasks_done_bonus_value\": 2.0, \"priority_bonus_value\": 1.0, \"priority_sum_value\": 1.0, \"total_cost_value\": 4.5, \"violations_value\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [{\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Implement\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Test\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Docs\", \"priority\": 0.25}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Triage\", \"priority\": 0.25}], \"tasks_completed\": [{\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Implement\", \"priority\": 0.5}, {\"task_id\": \"ISSUE-0001::fix:Mobile-Dev:Test\", \"priority\": 0.5}], \"total_cost\": 4.5, \"violations\": 0, \"tasks_done_bonus\": 1.0, \"priority_bonus\": 0.5, \"priority_sum\": 2.5, \"tasks_done\": 2, \"tasks_done_bonus_value\": 2.0, \"priority_bonus_value\": 1.0, \"priority_sum_value\": 1.0, \"total_cost_value\": 4.5, \"violations_value\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Sheri": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n<tool_call>\n,"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"tasks\": [\"Fix mobile-development [test]\", \"Fix mobile-development [implement]\"]}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

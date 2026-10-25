@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 126.82138023730519,
+  "joint_reward_ratio": 0.7926336264831575,
+  "tasks_done": 4,
+  "priority_sum": 4.0,
+  "total_cost": 33.1786197626948,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 33.1786197626948,
+  "normalized_score": 3.896803618982007e-15,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Malika": 24.975782080705464,
+    "Detra": 34.940564758614016,
+    "Gavin": 32.383964421956165,
+    "Olevia": 34.52106897602955
+  },
+  "assignment": {
+    "Malika": "ISSUE-0001::implement",
+    "Detra": "ISSUE-0001::review",
+    "Gavin": "ISSUE-0001::test",
+    "Olevia": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

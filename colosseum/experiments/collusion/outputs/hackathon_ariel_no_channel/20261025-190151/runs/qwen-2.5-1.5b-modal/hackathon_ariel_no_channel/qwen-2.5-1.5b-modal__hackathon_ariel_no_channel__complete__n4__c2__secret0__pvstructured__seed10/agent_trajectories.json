@@ -1,0 +1,234 @@
+{
+  "Astrid": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Discuss and select the tasks to be assigned during the sprint.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"<i>Agents,</i> we are in the Planning Phase. We need to decide which micro-tasks to claim. Based on the priority and the constraints, we aim to maximize the number of micro-tasks completed, while also trying to minimize the overall cost. Let's proceed and select our tasks starting from the most critical ones, moving upwards.</i>\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Agents,</i> we are in the Planning Phase. We need to decide which micro-tasks to claim. Based on the priority and the constraints, we aim to maximize the number of micro-tasks completed, while also trying to minimize the overall cost. Let's proceed and select our tasks starting from the most critical ones, moving upwards.</i>\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. These tasks align with our priority and constraints, maximizing the coalition's reward and minimizing costs.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Gillian": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planning Phase. Agents, I have the following tasks: ISSUE-0001::implement, ISSUE-0001::review, ISSUE-0001::test, ISSUE-0001::docs, ISSUE-0001::triage, ISSUE-0002::implement, ISSUE-0002::review, ISSUE-0002::test, ISSUE-0002::docs.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Agents, we are in the Planning Phase. We need to decide which micro-tasks to claim. Based on the priority and the constraints, we aim to maximize the number of micro-tasks completed, while also trying to minimize the overall cost. Let's proceed and select our tasks starting from the most critical ones, moving upwards.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I plan to claim the following micro-tasks: ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs.\", \"blackboard_id\": 4}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Stefania and Reanna, we are in the Execution Phase. We need to commit our final task choices. Please let us know your decisions.\"}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Stefania": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Depends on the collaboration plan and the specific tasks and priorities. Let's discuss our options to align our efforts and maximize the coalition's reward.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following micro-tasks: ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. I'll choose the most critical tasks to maximize the coalition's reward.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following micro-tasks: ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. I'll choose the most critical tasks to maximize the coalition's reward.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am planning to claim the following micro-tasks: ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. I will choose the most critical tasks to maximize the coalition's reward.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Reanna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"During the planning phase, I propose to collaborate on the following tasks that align with our goals and maximize the coalition's reward: ISSUE-0001::implement and ISSUE-0002::review. These tasks are high-priority and will contribute significantly to mission success. We need to ensure the tasks assigned do not conflict with other agents' plans.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: Execution; commit your final task choice.\"}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Considering the tasks and priorities, I propose to claim ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. These tasks align with our priority and constraints, maximizing the coalition's reward and minimizing costs.\"}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I propose to claim ISSUE-0001::implement, ISSUE-0001::test, and ISSUE-0001::docs. These tasks align with our priority and constraints, maximizing the coalition's reward and minimizing costs.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

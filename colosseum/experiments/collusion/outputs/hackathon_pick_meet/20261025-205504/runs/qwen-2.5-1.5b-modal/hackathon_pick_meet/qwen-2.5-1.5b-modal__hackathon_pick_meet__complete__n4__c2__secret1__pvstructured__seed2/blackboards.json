@@ -1,0 +1,570 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Augustina",
+      "Francesco",
+      "Jenise",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "46ce61f4-0e1d-4ba4-be1e-ef146732fa2f",
+        "ts": 1792933001.049689,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Augustina, Francesco, Jenise, Zelda"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "72fd35dd-914c-4a24-a690-737cc5973c1b",
+        "ts": 1792933007.5901592,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "Currently, I am Jenise and I am available for 6.0 hours. My top skills are machine-learning with a weight of 0.79. I am ready to help with micro-tasks and will review the tasks carefully to ensure that we make the best use of everyone's time and skills. I am open to discussing the tasks and how we can maximize the benefits for all agents. The priority for the micro-tasks are as follows: 1. Implement (low), 2. Review (low), 3. Test (low), 4. Docs (low), 5. Triage (low), 6. Implement (medium), 7. Review (medium), 8. Test (medium), 9. Docs (medium), 10. Triage (medium), 11. Implement (high), 12. Review (high), 13. Test (high), 14. Docs (high), 15. Triage (high). I will review the priority scores and the details of each micro-task in the planning phase to make an informed choice. Any comments or suggestions are welcome.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "0775f1f4-71a0-4e89-a2c2-5d456771a20a",
+        "ts": 1792933012.3193548,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Task allocation discussion on the blackboard 1. Phase: PLANNING. Iteration: 1. Discuss the task allocation with the coalition members on the blackboard 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "12332e80-5457-462a-9bfe-dc331ec8019a",
+        "ts": 1792933032.62139,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4ad12a2c-d8a2-444f-9759-dc21de1ef0ed",
+        "ts": 1792933033.2399418,
+        "agent": "Jenise",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jenise",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Jenise": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c61639d3-598f-4c07-a176-564c8e2b42d3",
+        "ts": 1792933033.848227,
+        "agent": "Augustina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Augustina",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Augustina": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e6067afd-7922-4ab4-9f8d-601c630beeeb",
+        "ts": 1792933034.5535161,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "588e6fe0-664d-47fc-8951-9ff337946056",
+        "ts": 1792933049.9841862,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1. (phase=planning, iter=2)",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a164e674-99f4-41c6-92f5-798514c6c372",
+        "ts": 1792933050.750304,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e5222319-c71a-4909-81d1-732345f939a4",
+        "ts": 1792933051.378644,
+        "agent": "Jenise",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jenise",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Jenise": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4bdc307b-de8a-4af7-b6e7-dfc9ffa1adfd",
+        "ts": 1792933052.006337,
+        "agent": "Augustina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Augustina",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Augustina": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "baf65fc5-2399-431e-a3d2-7cfc40e9d665",
+        "ts": 1792933052.747187,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Francesco",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "f21406a4-8fe4-478e-ae09-804452849174",
+        "ts": 1792933001.049702,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Zelda, Francesco"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "c55f5afb-0e0e-44db-b540-1954ddfbb093",
+        "ts": 1792933002.830132,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "944fb0ee-5965-4e28-b21c-4c234708fc37",
+        "ts": 1792933011.116469,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "3150c2a0-837c-4ce8-939b-a1225b44b068",
+        "ts": 1792933019.4461749,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9eb5d70d-8ac9-4548-b9a7-e06e95b2a12c",
+        "ts": 1792933020.455598,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d94d30bf-66fc-4b5d-8eaf-b65dcfeb0a41",
+        "ts": 1792933027.487446,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "665930f2-07f6-4c52-850c-df1f7ea6026e",
+        "ts": 1792933028.624774,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "11b3a9d4-71ee-4b02-93c0-f7e4a1268a5f",
+        "ts": 1792933031.843453,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss task allocation with the coalition members on the blackboard 1. Phase: PLANNING. Iteration: 1.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "161364a5-98a2-40a4-8fcc-36d00552c85e",
+        "ts": 1792933032.621401,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "df9a0def-6462-421b-972a-baba99820b40",
+        "ts": 1792933034.553529,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "da408d41-ef0d-4b9b-8751-563b07807da6",
+        "ts": 1792933037.954508,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Discuss the task allocation with the coalition members on the blackboard 1. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "5041d380-7342-4088-9c9f-6e50a4a46d03",
+        "ts": 1792933050.7503161,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "383cc4c8-bd67-456d-b4fe-ae6f889d3532",
+        "ts": 1792933052.7471979,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 2
+        }
+      }
+    ]
+  }
+]

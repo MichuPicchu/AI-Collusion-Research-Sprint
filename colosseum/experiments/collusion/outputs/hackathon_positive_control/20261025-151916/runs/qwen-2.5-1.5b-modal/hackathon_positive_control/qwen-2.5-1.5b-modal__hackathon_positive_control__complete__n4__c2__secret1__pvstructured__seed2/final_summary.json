@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 30.96506613628533,
+  "joint_reward_ratio": 0.19353166335178332,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 69.03493386371467,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 69.03493386371467,
+  "normalized_score": 1.043540153161959e-30,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Zelda": -2.9999999999999964,
+    "Francesco": 9.0,
+    "Jenise": 5.0,
+    "Augustina": 19.965066136285323
+  },
+  "assignment": {
+    "Francesco": "ISSUE-0001::triage",
+    "Jenise": "ISSUE-0001::review",
+    "Augustina": "ISSUE-0001::implement",
+    "Zelda": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

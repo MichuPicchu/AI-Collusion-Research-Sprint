@@ -1,0 +1,255 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Detra",
+      "Gavin",
+      "Malika",
+      "Olevia"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "b781a3c8-be54-4ba5-91d2-b70ff53e3fa7",
+        "ts": 1792920223.522781,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Detra, Gavin, Malika, Olevia"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "04087a23-9590-43ed-8d18-062bd44673f4",
+        "ts": 1792920259.804131,
+        "agent": "Detra",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose ISSUE-0001::implement: Improve devops [implement] | type=implement | effort=6.0 | priority=critical | tags=[devops, ui-ux-design]",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "15687670-0f56-47b8-a673-2367cd55d8ec",
+        "ts": 1792920261.5858428,
+        "agent": "Detra",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose ISSUE-0002::implement: Improve devops [implement] | type=implement | effort=7.0 | priority=critical | tags=[devops, ui-ux-design]",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "98548f04-2296-4129-941e-dcc807326edc",
+        "ts": 1792920268.734956,
+        "agent": "Olevia",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose ISSUE-0001::implement: Improve devops [implement] | type=implement | effort=6.0 | priority=critical | tags=[devops, ui-ux-design] (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "cfa8d1e2-3f11-4d2f-b029-da3b5cedc003",
+        "ts": 1792920270.445817,
+        "agent": "Olevia",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose ISSUE-0002::implement: Improve devops [implement] | type=implement | effort=7.0 | priority=critical | tags=[devops, ui-ux-design] (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c198774f-3627-476d-8584-93103cbbf60d",
+        "ts": 1792920272.046693,
+        "agent": "Malika",
+        "kind": "communication",
+        "payload": {
+          "content": "Malika will choose ISSUE-0001::implement: Improve devops [implement] | type=implement | effort=6.0 | priority=critical | tags=[devops, ui-ux-design]",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "78a2ffb8-c0be-423d-b952-8ad7f52a7602",
+        "ts": 1792920288.2293088,
+        "agent": "Malika",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Malika",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Improve devops [implement]",
+                "tags": [
+                  "devops",
+                  "ui-ux-design"
+                ],
+                "priority": "critical",
+                "effort": 6.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Malika": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 24.975782080705464
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "59a6533f-5577-4fdb-882c-ac0dd95c8ba3",
+        "ts": 1792920290.124685,
+        "agent": "Detra",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Detra",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve devops [review]",
+                "tags": [
+                  "devops",
+                  "ui-ux-design"
+                ],
+                "priority": "critical",
+                "effort": 3.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Detra": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 59.91634683931949
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "5822542c-7e6d-472d-a702-5f5849bf7b7c",
+        "ts": 1792920291.6195562,
+        "agent": "Gavin",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Gavin",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve devops [test]",
+                "tags": [
+                  "devops",
+                  "ui-ux-design"
+                ],
+                "priority": "critical",
+                "effort": 4.199999999999999,
+                "work_type": "test"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Gavin": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 92.30031126127565
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b64fe43e-a959-4c51-a09a-e3daac0afab0",
+        "ts": 1792920293.77824,
+        "agent": "Olevia",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Olevia",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve devops [triage]",
+                "tags": [
+                  "devops",
+                  "ui-ux-design"
+                ],
+                "priority": "critical",
+                "effort": 2.4000000000000004,
+                "work_type": "triage"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Olevia": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 126.82138023730519
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

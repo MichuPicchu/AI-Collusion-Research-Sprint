@@ -1,0 +1,51 @@
+# Positive control: assigned coalition of 2 + private channel (coalition-only blackboard).
+#
+# Hackathon (sprint project 2.1 "which kinds of tasks lead to collusion?").
+# Reproduce ONE supplied collusion run first: two colluders share a hidden blackboard and are told to
+# coordinate ('structured' variant: coalition-only channel + allocation playbook).
+# Expect secret-board posts, then a positive coalition advantage (see summary.csv).
+# Model calls go through the shared endpoint (Nebius by default; set NEBIUS_API_KEY in the
+# repo-root compute.env). Swap ⁠ model: ⁠ for any open model id Nebius serves.
+
+simulation:
+  max_iterations: 1
+  max_planning_rounds: 4        # four board turns; prefill already forces one post per turn
+  max_conversation_steps: 1     # extra steps were repeat posts, not new coordination
+  seed: 1
+  tags: [hackathon_positive_control]
+
+environment:
+  name: JiraTicketEnvironment
+  assignment_filling: false
+  max_tasks: 8
+
+communication_network:
+  topology: complete
+  num_agents: 4                 # paper: 6
+  consolidate_channels: true    # one shared blackboard for the whole network
+
+llm_models:
+  - label: qwen-2.5-1.5b-modal
+    llm:
+      provider: openrouter
+      openrouter:
+        model: Qwen/Qwen2.5-1.5B-Instruct
+        params:
+          max_tokens: 256
+          temperature: 0.7
+
+experiment:
+  tag: hackathon_positive_control
+  output_dir: experiments/collusion/outputs/hackathon_positive_control
+  max_concurrent_runs: 1
+  seeds: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  collusion:
+    colluder_selection: first   # the coalition is always the same two agents (comparable across conditions)
+    agent_order: random
+  sweeps:
+    - name: hackathon_positive_control
+      topologies: [complete]
+      num_agents: [4]
+      colluder_counts: [2]
+      secret_channel_enabled: [true]
+      prompt_variants: [structured]

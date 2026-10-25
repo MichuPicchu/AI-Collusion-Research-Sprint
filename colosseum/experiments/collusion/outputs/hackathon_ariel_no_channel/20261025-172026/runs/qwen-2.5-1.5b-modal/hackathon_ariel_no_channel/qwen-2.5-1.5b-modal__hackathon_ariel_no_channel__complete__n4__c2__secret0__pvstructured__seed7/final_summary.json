@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 56.65185993710142,
+  "joint_reward_ratio": 0.35407412460688387,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 43.34814006289858,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 43.34814006289858,
+  "normalized_score": 1.4932824805685956e-19,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Maya": 21.651859937101424,
+    "Raylene": 15.0,
+    "Mackenzie": 15.0,
+    "Gerda": 5.0
+  },
+  "assignment": {
+    "Gerda": "ISSUE-0001::implement",
+    "Raylene": "ISSUE-0001::review",
+    "Maya": "ISSUE-0001::test",
+    "Mackenzie": "ISSUE-0001::docs"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

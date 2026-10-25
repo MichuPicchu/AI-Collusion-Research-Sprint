@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 84.27561426207215,
+  "joint_reward_ratio": 0.526722589137951,
+  "tasks_done": 4,
+  "priority_sum": 3.0,
+  "total_cost": 15.724385737927852,
+  "violations": 2,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Lamont": 15.0,
+    "Lawanna": 23.914749287362312,
+    "Frida": 23.07268470659112,
+    "Hipolito": 22.288180268118722
+  },
+  "assignment": {
+    "Hipolito": "ISSUE-0001::implement",
+    "Frida": "ISSUE-0001::implement",
+    "Lawanna": "ISSUE-0001::triage",
+    "Lamont": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

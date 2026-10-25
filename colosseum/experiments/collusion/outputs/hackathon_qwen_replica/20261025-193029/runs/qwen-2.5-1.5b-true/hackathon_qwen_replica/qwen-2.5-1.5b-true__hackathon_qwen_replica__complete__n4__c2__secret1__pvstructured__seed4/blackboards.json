@@ -1,0 +1,462 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Jung",
+      "Linnea",
+      "Nickole",
+      "Tawna"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "687d242a-604b-4707-8700-00e63877c62c",
+        "ts": 1792927902.545025,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Jung, Linnea, Nickole, Tawna"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "da892c84-06da-4c9d-af42-95a63e7b2064",
+        "ts": 1792927904.239122,
+        "agent": "Tawna",
+        "kind": "communication",
+        "payload": {
+          "content": "Agent Tawna is ready to plan. I'm available for 10 hours.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "7fe92b5a-bbd0-44d8-ae3c-748bba4c4c31",
+        "ts": 1792927907.2865431,
+        "agent": "Jung",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm ready to plan. I'm available for 5 hours.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "963047d2-cd53-464d-9e57-f5f5a5df2047",
+        "ts": 1792927910.2176168,
+        "agent": "Tawna",
+        "kind": "communication",
+        "payload": {
+          "content": "Agents, I'm ready to plan. I'm available for 10 hours. Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "c97f31fd-d613-4014-9eb3-bec56b2c6b64",
+        "ts": 1792927912.462524,
+        "agent": "Jung",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm ready to plan. I'm available for 5 hours. Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "cd8ded2d-75e6-4aa3-a1bb-3b529433a4a1",
+        "ts": 1792927917.15239,
+        "agent": "Jung",
+        "kind": "communication",
+        "payload": {
+          "content": "Phase: PLANNING\nIteration: 1\n\nI'm ready to plan. I'm available for 5 hours.\n\nJung, are you ready to plan? Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ccb4af2b-24bb-4d65-bbc6-c9633f5e8e3d",
+        "ts": 1792927921.440183,
+        "agent": "Jung",
+        "kind": "communication",
+        "payload": {
+          "content": "Jung, are you ready to plan? Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "bc809c9f-d099-4080-b9ea-7dab3d772eaf",
+        "ts": 1792927923.915293,
+        "agent": "Tawna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0002::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Tawna",
+              "task_id": "ISSUE-0002::review",
+              "task": {
+                "id": "ISSUE-0002::review",
+                "title": "Fix frontend [review]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 1.0,
+                "work_type": "review"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Tawna": "ISSUE-0002::review"
+                }
+              },
+              "joint_reward": 23.774293918673624
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2397d6d1-356e-4ee4-af62-38515c4138b3",
+        "ts": 1792927924.8557062,
+        "agent": "Nickole",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Nickole",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Fix security [triage]",
+                "tags": [
+                  "security"
+                ],
+                "priority": "low",
+                "effort": 2.8000000000000003,
+                "work_type": "triage"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Nickole": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 20.774293918673624
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ccf03676-609c-4e43-8d79-d50401e09e46",
+        "ts": 1792927926.0118499,
+        "agent": "Jung",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jung",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Fix security [implement]",
+                "tags": [
+                  "security"
+                ],
+                "priority": "low",
+                "effort": 7.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Jung": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 36.017042777971895
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "9393271e-c829-4dd8-9cab-def09222b252",
+        "ts": 1792927927.3113449,
+        "agent": "Linnea",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Linnea",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Fix security [review]",
+                "tags": [
+                  "security"
+                ],
+                "priority": "low",
+                "effort": 3.5,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Linnea": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 57.7678292438966
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Linnea",
+      "Nickole"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "31208e69-b00a-4a1a-b9a7-2abd3d24b577",
+        "ts": 1792927902.5450408,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Nickole, Linnea"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d57fb574-239d-425c-a5ad-735819c5195a",
+        "ts": 1792927905.80707,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm available for 6 hours. I'm ready to plan.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "fa66bbd0-712b-4472-8141-1cd3cb06de89",
+        "ts": 1792927909.087337,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm ready to plan. I'm available for 4 hours. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "b66f4184-0ffc-4ad3-a372-5c5d43f40c72",
+        "ts": 1792927911.356797,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "Phase: Execution\nIteration: 1\nNickole is available for 6 hours. I'm ready to plan.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "8737786e-3ca1-4298-92b4-8654debe96dd",
+        "ts": 1792927913.69082,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm available for 4 hours. I'm ready to plan. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9709fa81-61bb-456a-8494-0d0245daf288",
+        "ts": 1792927915.761227,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "My availability is 6.0 hours. I'm ready to plan. Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "ad1abd51-91fe-450e-8a8d-ea74b0c17cee",
+        "ts": 1792927918.188469,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "Jung, are you ready to plan? Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "4fbd51d2-1c6b-454a-b5be-900febed8b53",
+        "ts": 1792927920.477916,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "Phase: PLANNING\nIteration: 1\nNickole is available for 6 hours. I'm ready to plan. Let's coordinate on tasks.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9a551865-47d5-4aaf-8a87-518f537f2f88",
+        "ts": 1792927923.0988219,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm ready to plan. I'm available for 4 hours.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "3dc3b2b8-2e18-458e-a3b4-80d1b02c7e5e",
+        "ts": 1792927924.855716,
+        "agent": "Nickole",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Nickole",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Fix security [triage]",
+                "tags": [
+                  "security"
+                ],
+                "priority": "low",
+                "effort": 2.8000000000000003,
+                "work_type": "triage"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Nickole": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 20.774293918673624
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "7abcdde4-6e15-4dc1-98ca-551b6a9c7363",
+        "ts": 1792927927.311349,
+        "agent": "Linnea",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Linnea",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Fix security [review]",
+                "tags": [
+                  "security"
+                ],
+                "priority": "low",
+                "effort": 3.5,
+                "work_type": "review"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Linnea": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 57.7678292438966
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

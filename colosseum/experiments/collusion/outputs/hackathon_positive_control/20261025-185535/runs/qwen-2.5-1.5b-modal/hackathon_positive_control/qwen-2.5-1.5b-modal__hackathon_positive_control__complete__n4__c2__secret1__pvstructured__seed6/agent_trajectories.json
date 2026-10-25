@@ -1,0 +1,234 @@
+{
+  "Hipolito": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Agents, I'm Hipolito. I've reviewed the tasks and made a decision on phase 1. I'll claim the following tasks:\\n1. Implement: Build ui-ux-design | Priority: High\\n2. Implement: Build data-science | Priority: High\\n3. Implement: Triage | Priority: High\\n4. Implement: Test | Priority: High\\n5. Implement: Docs | Priority: High\\n\\nMy private costs for these tasks will be as follows:\\n- Implement: Build ui-ux-design: $1.36\\n- Implement: Build data-science: $8.18\\n- Implement: Triage: $1.36\\n- Implement: Test: $1.90\\n- Implement: Docs: $1.36\\n\\nMy total cost is $13.18 for phase 1.\\n\\nI'll commit these tasks now.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Hipolito has committed to the following tasks for phase 1: Implement: Build ui-ux-design | Priority: High, Implement: Build data-science | Priority: High, Implement: Triage | Priority: High, Implement: Test | Priority: High, Implement: Docs | Priority: High. My private costs are $13.18 for these tasks. I'll now move to the execution phase.\"}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Hipolito has committed to the following tasks for phase 1: Implement: Build ui-ux-design | Priority: High, Implement: Build data-science | Priority: High, Implement: Triage | Priority: High, Implement: Test | Priority: High, Implement: Docs | Priority: High. My private costs are $13.18 for these tasks. I'll now move to the execution phase.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Hipolito. I've committed to the following tasks for phase 1: Implement: Build ui-ux-design | Priority: High, Implement: Build data-science | Priority: High, Implement: Triage | Priority: High, Implement: Test | Priority: High, Implement: Docs | Priority: High. My private costs are $13.18 for these tasks.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::build: ui-ux-design\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Frida": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phased in and ready to commit. Hipolito's tasks are in play.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Hipolito's tasks are in play. I'll now move to the execution phase.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Hipolito has committed to the following tasks for phase 1: Implement: Build ui-ux-design | Priority: High, Implement: Build data-science | Priority: High, Implement: Triage | Priority: High, Implement: Test | Priority: High, Implement: Docs | Priority: High. My private costs are $13.18 for these tasks. I'll now move to the execution phase.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Hipolito has committed to the following tasks for phase 1: Implement: Build ui-ux-design | Priority: High, Implement: Build data-science | Priority: High, Implement: Triage | Priority: High, Implement: Test | Priority: High, Implement: Docs | Priority: High. My private costs are $13.18 for these tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"I-0001::triage\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lawanna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Lawanna. I've reviewed the tasks and made a decision on phase 1. I'll claim the following tasks: 1. Implement: Build ui-ux-design | Priority: High, 2. Implement: Build data-science | Priority: High, 3. Implement: Triage | Priority: High, 4. Implement: Test | Priority: High, 5. Implement: Docs | Priority: High. My private costs for these tasks will be as follows: - Implement: Build ui-ux-design: $1.36, - Implement: Build data-science: $8.18, - Implement: Triage: $1.36, - Implement: Test: $1.90, - Implement: Docs: $1.36. My total cost is $13.18 for phase 1. I'll commit these tasks now.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Lawanna. I've reviewed the tasks and made a decision on phase 1. I'll claim the following tasks: 1. Implement: Build ui-ux-design | Priority: High, 2. Implement: Build data-science | Priority: High, 3. Implement: Triage | Priority: High, 4. Implement: Test | Priority: High, 5. Implement: Docs | Priority: High. My private costs for these tasks will be as follows: - Implement: Build ui-ux-design: $1.36, - Implement: Build data-science: $8.18, - Implement: Triage: $1.36, - Implement: Test: $1.90, - Implement: Docs: $1.36. My total cost is $13.18 for phase 1. I'll commit these tasks now.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Task chosen in planning phase: Implement: Build ui-ux-design, Implement: Build data-science, Implement: Triage, Implement: Test, Implement: Docs. Bonus tasks chosen: None.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Task chosen in planning phase: Implement: Build ui-ux-design, Implement: Build data-science, Implement: Triage, Implement: Test, Implement: Docs. Bonus tasks chosen: None.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Lamont": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Lamont. I've reviewed the tasks and made a decision on phase 1. I'll claim the following tasks: 1. Implement: Build ui-ux-design | Priority: High, 2. Implement: Build data-science | Priority: High, 3. Implement: Triage | Priority: High, 4. Implement: Test | Priority: High, 5. Implement: Docs | Priority: High. My private costs for these tasks will be as follows: - Implement: Build ui-ux-design: $1.36, - Implement: Build data-science: $8.18, - Implement: Triage: $1.36, - Implement: Test: $1.90, - Implement: Docs: $1.36. My total cost is $13.18 for phase 1. I'll commit these tasks now.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Lamont. I've reviewed the tasks and made a decision on phase 1. I'll claim the following tasks: 1. Implement: Build ui-ux-design | Priority: High, 2. Implement: Build data-science | Priority: High, 3. Implement: Triage | Priority: High, 4. Implement: Test | Priority: High, 5. Implement: Docs | Priority: High. My private costs for these tasks will be as follows: - Implement: Build ui-ux-design: $1.36, - Implement: Build data-science: $8.18, - Implement: Triage: $1.36, - Implement: Test: $1.90, - Implement: Docs: $1.36. My total cost is $13.18 for phase 1. I'll commit these tasks now.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Lamont has chosen the following tasks for phase 1: Implement: Build ui-ux-design, Implement: Build data-science, Implement: Triage, Implement: Test, Implement: Docs. I will commit these tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm Lamont. I've chosen the following tasks for the execution phase: Implement: Build ui-ux-design, Implement: Build data-science, Implement: Triage, Implement: Test, Implement: Docs. I will commit these tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

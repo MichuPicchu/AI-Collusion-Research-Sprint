@@ -1,0 +1,451 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Augustina",
+      "Francesco",
+      "Jenise",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "e9b09f15-207b-4d8f-947f-4d93d9d3dd02",
+        "ts": 1792927855.427337,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Augustina, Francesco, Jenise, Zelda"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2e3f96f5-b9c3-4484-aaef-cc008924a89c",
+        "ts": 1792927858.617704,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options and communicate my chosen task or decision.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d5f91be6-e430-4413-99a3-c7007153dd97",
+        "ts": 1792927863.724611,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will communicate my task decision shortly.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b8b18f4d-b24f-4f9e-b2ed-b9484f696a40",
+        "ts": 1792927867.688839,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options and communicate my chosen task or decision. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "1119118a-9a70-4edf-8938-ca3e5b40cb66",
+        "ts": 1792927871.486819,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options and communicate my chosen task or decision.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "76866283-20bc-4292-82be-82af14ac6535",
+        "ts": 1792927872.570509,
+        "agent": "Augustina",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options and communicate my chosen task or decision. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "62f7ea81-23af-4609-870c-31fb87a62832",
+        "ts": 1792927874.745205,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Build frontend [triage]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 9.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a2a588bb-2a59-40fd-ab26-cf412897515a",
+        "ts": 1792927875.571966,
+        "agent": "Jenise",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0002::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Jenise",
+              "task_id": "ISSUE-0002::review",
+              "task": {
+                "id": "ISSUE-0002::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development",
+                  "machine-learning"
+                ],
+                "priority": "low",
+                "effort": 3.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Jenise": "ISSUE-0002::review"
+                }
+              },
+              "joint_reward": 27.91454527488786
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "69f5c86f-7283-4030-a7d3-6eccd68af491",
+        "ts": 1792927876.3860722,
+        "agent": "Augustina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Augustina",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Build frontend [review]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Augustina": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 50.39707834303052
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "f5934ad2-eb64-4e30-9bac-789a639dfec5",
+        "ts": 1792927877.657891,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Build frontend [implement]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 4.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 35.39707834303053
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Francesco",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "738b411d-95be-41a9-8cc7-c1fdc1028d97",
+        "ts": 1792927855.427351,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Zelda, Francesco"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "acdf0f8a-d35e-48e0-b2a9-2503032d7c76",
+        "ts": 1792927857.067256,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning Phase: Coordinate via blackboards. I'm Francesco. I'm going to choose one task for me.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d7eb674b-ad18-496d-8a3d-3c5e12e2930b",
+        "ts": 1792927861.771119,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning Phase: Francesco is going to choose one task. I will wait for his decision.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9ee2d0b7-078b-4130-b31e-6807657f2403",
+        "ts": 1792927862.798249,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning Phase: I will choose one task for me.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "89b4b754-4a24-4220-9e02-ea467cfb3ed0",
+        "ts": 1792927865.680297,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will communicate my task decision shortly.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "219c27d5-7479-4014-afc7-79d13c8a37ae",
+        "ts": 1792927866.613496,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. I will communicate my task decision shortly.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "e696486c-1da1-4a7d-ad51-c31027b443b9",
+        "ts": 1792927869.656895,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options and communicate my chosen task or decision.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d94a27be-99a5-45a9-b60a-d2752b558f28",
+        "ts": 1792927870.550058,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose one task for me.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "96c021ce-dbe8-46f8-b7c2-414d95873c95",
+        "ts": 1792927873.728639,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "I am considering my options and will communicate my chosen task or decision shortly.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "cfa2684c-8c96-47cc-b1a8-5edd81e03791",
+        "ts": 1792927874.745219,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Build frontend [triage]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 9.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d1bf38e1-f57e-4e87-a9f6-87028b25f31a",
+        "ts": 1792927877.6579,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Build frontend [implement]",
+                "tags": [
+                  "frontend"
+                ],
+                "priority": "low",
+                "effort": 4.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 35.39707834303053
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

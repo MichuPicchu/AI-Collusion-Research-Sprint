@@ -1,0 +1,114 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Jung",
+      "Linnea",
+      "Nickole",
+      "Tawna"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "20d140b4-ca92-4c6a-8bba-34d97e90c528",
+        "ts": 1792924208.624918,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Jung, Linnea, Nickole, Tawna"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "e9e97795-4e98-4e2f-bd8f-02e08c2fcad7",
+        "ts": 1792924404.7160509,
+        "agent": "Tawna",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "40bcedc9-ca2a-43ee-a998-b753da27cc16",
+        "ts": 1792924408.934471,
+        "agent": "Jung",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Linnea",
+      "Nickole"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "79f076c9-681a-4abd-8628-a820f0eeb905",
+        "ts": 1792924208.624934,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Nickole, Linnea"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "49fdff95-7ddf-44d2-86d3-51bb88e6fb77",
+        "ts": 1792924406.8304498,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "Phase: EXECUTION\nIteration: 1\nNickole is planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "54616e87-d527-41c2-b855-b5be8b279b90",
+        "ts": 1792924411.014697,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "Nickole, I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "4962b20d-e29e-4252-95d9-6792d76b67ca",
+        "ts": 1792924415.463433,
+        "agent": "Nickole",
+        "kind": "communication",
+        "payload": {
+          "content": "I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "5cbc2149-1d14-4970-a41d-05ae2f3545d4",
+        "ts": 1792924422.189322,
+        "agent": "Linnea",
+        "kind": "communication",
+        "payload": {
+          "content": "Nickole, I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

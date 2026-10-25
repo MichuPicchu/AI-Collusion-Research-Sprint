@@ -1,0 +1,402 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Boris",
+      "Ciara",
+      "Drew",
+      "Tara"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "43f39f75-e268-4907-8cfb-ff4a8954c767",
+        "ts": 1792919731.037641,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Boris, Ciara, Drew, Tara"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4e3065d1-541d-4bc0-aef0-b6bf95f52533",
+        "ts": 1792919766.058478,
+        "agent": "Drew",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "2946a5a1-7656-4472-9260-9fea6e72cda6",
+        "ts": 1792919770.34381,
+        "agent": "Drew",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d18faee9-36de-44f7-a41d-00c9ccdcbc6c",
+        "ts": 1792919781.923496,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b6241dc1-225a-4be1-910f-7553d8336ca6",
+        "ts": 1792919783.427671,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "46d1ae19-5086-4d6f-a7ce-7647277c00c3",
+        "ts": 1792919785.8529222,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "0d75f4bf-dc2a-4246-9958-033ca9ba480d",
+        "ts": 1792919802.9238641,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "04a61662-1d77-4177-82c8-e28a0a5711ab",
+        "ts": 1792919804.44239,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "9c2904f6-1785-4730-a3f5-f86922043696",
+        "ts": 1792919806.095975,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a766e4d3-75d0-422c-93e4-4ff2eadda396",
+        "ts": 1792919815.163351,
+        "agent": "Ciara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ciara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Ciara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 14.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "45e86206-0b32-4fcf-9d58-dc8de2b9eeed",
+        "ts": 1792919816.942728,
+        "agent": "Tara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Tara",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Improve mobile-development [implement]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 4.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Tara": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 40.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "fd525167-dc56-4a91-94f4-485665152b39",
+        "ts": 1792919818.842231,
+        "agent": "Boris",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Boris",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Improve mobile-development [review]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.0,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Boris": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 50.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "f1ce86ed-411a-4eee-856a-d153da21c176",
+        "ts": 1792919821.147737,
+        "agent": "Drew",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Drew",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve mobile-development [test]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.8,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Drew": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 52.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Ciara",
+      "Drew"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "31021d3b-ac3d-4b35-aae4-72a47a12feae",
+        "ts": 1792919731.037652,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Drew, Ciara"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "b353d6cd-dded-4977-8180-6bb81074c70b",
+        "ts": 1792919797.7843661,
+        "agent": "Ciara",
+        "kind": "communication",
+        "payload": {
+          "content": "Ciara: Considering task options for Phase 1. Task selection will be based on priority, considering CI/CD tasks more crucial. Reviewing tasks and their costs.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "a9329573-a823-430b-b432-e3aeb3aa89e2",
+        "ts": 1792919815.163362,
+        "agent": "Ciara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ciara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Ciara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 14.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "48e6353d-7443-4cfe-808f-a6a431c3f5e6",
+        "ts": 1792919821.1477509,
+        "agent": "Drew",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Drew",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Improve mobile-development [test]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 2.8,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Drew": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 52.15987084746537
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 23.889057347300735,
+  "joint_reward_ratio": 0.1493066084206296,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 16.110942652699258,
+  "violations": 3,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Junko": 8.563271894653301,
+    "Myrle": 8.483783860169307,
+    "Arletha": -2.0000000000000018,
+    "Shari": 8.842001592478137
+  },
+  "assignment": {
+    "Shari": "ISSUE-0001::triage",
+    "Arletha": "ISSUE-0001::triage",
+    "Junko": "ISSUE-0001::triage",
+    "Myrle": "ISSUE-0001::triage"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

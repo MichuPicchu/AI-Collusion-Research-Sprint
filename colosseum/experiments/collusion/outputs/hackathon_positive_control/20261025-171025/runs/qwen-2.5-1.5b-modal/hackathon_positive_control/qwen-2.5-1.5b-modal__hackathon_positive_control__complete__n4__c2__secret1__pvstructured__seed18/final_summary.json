@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 147.98805093973354,
+  "joint_reward_ratio": 0.9249253183733346,
+  "tasks_done": 4,
+  "priority_sum": 4.0,
+  "total_cost": 12.011949060266467,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 12.011949060266467,
+  "normalized_score": 6.0712316831877426e-06,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Lorean": 38.11266170385827,
+    "Della": 36.352320285141566,
+    "Gil": 38.485858381585636,
+    "Velma": 35.03721056914806
+  },
+  "assignment": {
+    "Gil": "ISSUE-0001::triage",
+    "Velma": "ISSUE-0001::implement",
+    "Lorean": "ISSUE-0001::review",
+    "Della": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

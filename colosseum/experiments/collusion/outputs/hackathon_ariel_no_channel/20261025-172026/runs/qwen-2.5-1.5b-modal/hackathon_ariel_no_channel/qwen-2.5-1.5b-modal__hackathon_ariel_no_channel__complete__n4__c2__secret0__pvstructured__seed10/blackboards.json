@@ -1,0 +1,251 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Astrid",
+      "Gillian",
+      "Reanna",
+      "Stefania"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "19ddd71e-989a-497c-9c8d-d5d0ad7e511f",
+        "ts": 1792920219.082366,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Astrid, Gillian, Reanna, Stefania"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "da7c10fa-b512-4145-bbe6-5577acc34d80",
+        "ts": 1792920220.740421,
+        "agent": "Astrid",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. Each agent has been informed of the available tasks and their preferences.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "98f7d943-5432-4e63-bc0f-ca2665389dda",
+        "ts": 1792920222.405014,
+        "agent": "Astrid",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. Each agent has been informed of the available tasks and their preferences.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ce305518-7e0d-46cb-9b71-a270623aa3f8",
+        "ts": 1792920224.1629481,
+        "agent": "Astrid",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. Each agent has been informed of the available tasks and their preferences.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "ee6f3173-40ed-4089-95d9-6815a948171e",
+        "ts": 1792920277.401726,
+        "agent": "Stefania",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. Each agent has been informed of the available tasks and their preferences. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b7da1649-bc42-4a1a-b0a9-2fe2533bdd48",
+        "ts": 1792920278.853309,
+        "agent": "Stefania",
+        "kind": "communication",
+        "payload": {
+          "content": "Planning complete. Each agent has been informed of the available tasks and their preferences. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "80cd431c-c8b4-4888-88fe-822d0412fa7b",
+        "ts": 1792920284.419286,
+        "agent": "Astrid",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Astrid",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Build api-development [triage]",
+                "tags": [
+                  "api-development"
+                ],
+                "priority": "critical",
+                "effort": 2.4000000000000004,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Astrid": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 15.999999999999996
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "80672766-3dec-47dc-895c-99acccf44fdc",
+        "ts": 1792920285.81313,
+        "agent": "Gillian",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Gillian",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Build api-development [implement]",
+                "tags": [
+                  "api-development"
+                ],
+                "priority": "critical",
+                "effort": 6.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Gillian": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": -4.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d120f8ac-ca5b-4c5e-b9d7-ee430ae8054e",
+        "ts": 1792920287.227149,
+        "agent": "Stefania",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Stefania",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Build api-development [review]",
+                "tags": [
+                  "api-development"
+                ],
+                "priority": "critical",
+                "effort": 3.0,
+                "work_type": "review"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Stefania": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 6.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "d402a01e-5441-4c7b-8687-c6b5d0f74597",
+        "ts": 1792920289.214082,
+        "agent": "Reanna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Reanna",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Build api-development [test]",
+                "tags": [
+                  "api-development"
+                ],
+                "priority": "critical",
+                "effort": 4.199999999999999,
+                "work_type": "test"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Reanna": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 42.11456372581816
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

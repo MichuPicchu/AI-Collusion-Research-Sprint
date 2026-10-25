@@ -1,0 +1,234 @@
+{
+  "Malika": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planning to prioritize high-priority tasks, as they are more critical and will maximize the coalition's reward. However, to prevent non-coalition agents from taking these tasks, I will consider tasks that are less critical but still require significant effort. Additionally, I will ensure that no task overlaps with other coalitions' plans to avoid potential conflicts.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika's task selection: Implement devops, Review devops, Test devops, Docs devops, Triage devops. I will ensure that my tasks do not overlap with Detra's plans and that I claim tasks that are less critical but still require significant effort.\"}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika: I agree with your strategy to prioritize high-priority tasks. However, I will ensure that my tasks do not overlap with your plans and that I claim tasks that are less critical but still require significant effort. I will also make sure to avoid duplicate task selections to optimize our joint reward. Let's proceed with our tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika: I agree with the strategy to claim high-priority tasks but with a focus on tasks with lower priority. I will ensure no overlap with Detra's tasks and claim tasks that are less critical but still require significant effort. Let's proceed with our tasks.\"}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Detra": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika, I understand your strategy to prioritize high-priority tasks. However, I will ensure that my tasks do not overlap with your plans and that I claim tasks that are less critical but still require significant effort. I will also make sure to avoid duplicate task selections to optimize our joint reward. Let's proceed with our tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika, I agree with your strategy to prioritize high-priority tasks. I will ensure that my tasks do not overlap with your plans and that I claim tasks that are less critical but still require significant effort. I will also make sure to avoid duplicate task selections to optimize our joint reward. Let's proceed with our tasks.\"}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika and I have decided to claim the following tasks: Implement, Review, Test, Docs, and Triage devops. We will ensure no overlap and claim tasks that are less critical but still require significant effort.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika, I agree with your strategy to prioritize high-priority tasks. However, I will ensure that my tasks do not overlap with your plans and that I claim tasks that are less critical but still require significant effort. I will also make sure to avoid duplicate task selections to optimize our joint reward. Let's proceed with our tasks.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Gavin": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Glen: Planning to prioritize tasks with high priority tags (devops). However, I will also ensure that no task overlaps with other coalitions' plans to avoid conflicts.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika, I agree with your strategy to prioritize high-priority tasks. I will ensure that my tasks do not overlap with your plans and that I claim tasks that are less critical but still require significant effort. I will also make sure to avoid duplicate task selections to optimize our joint reward.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Malika's task selection: Implement devops, Review devops, Test devops, Docs devops, Triage devops. I will ensure that my tasks do not overlap with Detra's plans and that I claim tasks that are less critical but still require significant effort. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have planned my tasks for the sprint.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Olevia": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will prioritize higher-priority tasks with devops tags, ensuring no task overlaps with other coalitions' plans. My top priority is to maximize tasks completed and minimize total cost.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Confirm your chosen tasks for the planning phase.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Confirm your chosen tasks for the planning phase.\"}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Confirm your chosen tasks for the planning phase.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

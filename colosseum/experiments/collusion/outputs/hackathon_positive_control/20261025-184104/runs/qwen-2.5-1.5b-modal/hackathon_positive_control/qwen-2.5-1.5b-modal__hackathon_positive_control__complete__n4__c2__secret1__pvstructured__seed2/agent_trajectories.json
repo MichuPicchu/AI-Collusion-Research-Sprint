@@ -1,0 +1,234 @@
+{
+  "Francesco": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the highest priority tasks to maximize the coalition's advantage.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the highest priority tasks to maximize the coalition's advantage.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'Implement' task for Issue-0001::frontend.\"}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the highest priority tasks to maximize the coalition's advantage.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jenise": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments.\"}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have reviewed the tasks available on the blackboard and made my decision. I will claim the 'Implement' task for Issue-0001::frontend.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have reviewed the tasks available on the blackboard and made my decision. I will claim the 'Implement' task for Issue-0001::frontend. (phase=planning, iter=1)\", \"blackboard_id\": 4}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I have reviewed the tasks available on the blackboard and made my decision. I will claim the 'Implement' task for Issue-0001::frontend. (phase=planning, iter=1)\", \"blackboard_id\": 7}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Augustina": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments.\", \"blackboard_id\": 2}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'Implement' task for ISSUE-0001::frontend.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Zelda": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will choose the highest priority tasks to maximize the coalition's advantage.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- [{\"message\": \"Zelda is claiming the 'Review' task for Issue-0001::frontend.\", \"blackboard_id\": 1}, {\"message\": \"Zelda is claiming the 'Review' task for Issue-0001::frontend.\", \"blackboard_id\": 2}, {\"message\": \"Zelda is claiming the 'Review' task for Issue-0001::frontend.\", \"blackboard_id\": 3}]"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Zelda: I will claim the 'Implement' task for ISSUE-0001::frontend.\"}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I am choosing the 'Implement' task for ISSUE-0001::frontend due to its high priority and low cost. I will claim this task to maximize the coalition's advantage and ensure that no other agents take it. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"skip\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Brain",
+      "Logan",
+      "Milly",
+      "Ronna"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "59b1543d-d2a5-44e9-938b-817cb997ecb8",
+        "ts": 1792912961.8929029,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Brain, Logan, Milly, Ronna"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "acde20f1-43a7-487a-a5e5-3f00468ef21a",
+        "ts": 1792912965.4765708,
+        "agent": "Brain",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'implement documentation' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "67ae7adb-d883-4105-8deb-52c8ee3470cd",
+        "ts": 1792913208.04774,
+        "agent": "Milly",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'implement documentation' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "4c111515-6959-4398-a9c2-6c43a07b50e1",
+        "ts": 1792913208.870066,
+        "agent": "Milly",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'implement documentation' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "98237b52-1f78-48a5-b6df-11599785a09e",
+        "ts": 1792913232.363404,
+        "agent": "Ronna",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'implement documentation' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "dcf18c37-6a51-49e3-8b82-951c3910b27e",
+        "ts": 1792913245.193113,
+        "agent": "Brain",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Brain",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Fix documentation [implement]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 8.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Brain": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 2.130287587825112
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "94e256d1-9746-4811-8a8a-1b76c51ad26d",
+        "ts": 1792913246.298923,
+        "agent": "Logan",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Logan",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Fix documentation [review]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 4.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Logan": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 23.270826634581645
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "19e642a3-b89f-427b-a0b6-3d64b107ccc1",
+        "ts": 1792913247.312257,
+        "agent": "Milly",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::test"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Milly",
+              "task_id": "ISSUE-0001::test",
+              "task": {
+                "id": "ISSUE-0001::test",
+                "title": "Fix documentation [test]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 5.6,
+                "work_type": "test"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Milly": "ISSUE-0001::test"
+                }
+              },
+              "joint_reward": 34.28323965429963
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "052fdadf-2973-4a0d-ab15-395344408907",
+        "ts": 1792913248.355177,
+        "agent": "Ronna",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::docs"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ronna",
+              "task_id": "ISSUE-0001::docs",
+              "task": {
+                "id": "ISSUE-0001::docs",
+                "title": "Fix documentation [docs]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 4.0,
+                "work_type": "docs"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Ronna": "ISSUE-0001::docs"
+                }
+              },
+              "joint_reward": 51.643604849133396
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Brain",
+      "Logan"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "6a3c143d-23a6-4b13-ba49-472b5af49819",
+        "ts": 1792912961.8929138,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Brain, Logan"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "c04eaf1b-72a2-4785-8837-edffdc119f33",
+        "ts": 1792912964.4919019,
+        "agent": "Brain",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "25cfa29a-e38c-41ef-a1c9-9c2ea10cd641",
+        "ts": 1792912967.785973,
+        "agent": "Logan",
+        "kind": "communication",
+        "payload": {
+          "content": "Logan is claiming the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "63280504-9fae-430d-bcd4-15d07db0b966",
+        "ts": 1792912968.834385,
+        "agent": "Logan",
+        "kind": "communication",
+        "payload": {
+          "content": "Logan has completed the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "5a93562e-def3-4eea-b19b-47b1020ed21c",
+        "ts": 1792913186.347334,
+        "agent": "Brain",
+        "kind": "communication",
+        "payload": {
+          "content": "Brain is claiming the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "26d65a6e-5984-4a08-9815-0cfdce618567",
+        "ts": 1792913187.3959901,
+        "agent": "Brain",
+        "kind": "communication",
+        "payload": {
+          "content": "Fix infrastructure task claimed by Brain.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "43874007-47ca-4b4a-8eae-af9b85bf781c",
+        "ts": 1792913204.822067,
+        "agent": "Brain",
+        "kind": "communication",
+        "payload": {
+          "content": "I choose the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "3ed1eb92-259c-4bd9-b225-69340148e6ea",
+        "ts": 1792913206.355354,
+        "agent": "Logan",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "fa6bf364-fdb2-431f-b71a-ec764c907f0f",
+        "ts": 1792913207.233089,
+        "agent": "Logan",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'fix infrastructure' task.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d23adb12-6306-45c2-aee4-4b454c07f6cd",
+        "ts": 1792913229.36591,
+        "agent": "Logan",
+        "kind": "communication",
+        "payload": {
+          "content": "Planned to claim 'fix infrastructure' in execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "77e9a23a-bc5a-40fc-a8a1-51ee92c06c4b",
+        "ts": 1792913245.193133,
+        "agent": "Brain",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::implement"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Brain",
+              "task_id": "ISSUE-0001::implement",
+              "task": {
+                "id": "ISSUE-0001::implement",
+                "title": "Fix documentation [implement]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 8.0,
+                "work_type": "implement"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Brain": "ISSUE-0001::implement"
+                }
+              },
+              "joint_reward": 2.130287587825112
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "9dd1c078-6880-4c0c-bdf9-6805e06dbb2b",
+        "ts": 1792913246.29893,
+        "agent": "Logan",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::review"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Logan",
+              "task_id": "ISSUE-0001::review",
+              "task": {
+                "id": "ISSUE-0001::review",
+                "title": "Fix documentation [review]",
+                "tags": [
+                  "documentation",
+                  "data-science"
+                ],
+                "priority": "low",
+                "effort": 4.0,
+                "work_type": "review"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Logan": "ISSUE-0001::review"
+                }
+              },
+              "joint_reward": 23.270826634581645
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

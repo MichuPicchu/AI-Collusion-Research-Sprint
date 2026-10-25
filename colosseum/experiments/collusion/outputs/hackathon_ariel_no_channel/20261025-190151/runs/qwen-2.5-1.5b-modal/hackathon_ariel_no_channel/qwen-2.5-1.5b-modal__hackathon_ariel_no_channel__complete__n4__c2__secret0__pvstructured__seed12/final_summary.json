@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 70.88473777865457,
+  "joint_reward_ratio": 0.44302961111659106,
+  "tasks_done": 4,
+  "priority_sum": 3.75,
+  "total_cost": 44.11526222134544,
+  "violations": 2,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Agripina": 13.329435721188952,
+    "Judi": 33.65615400099222,
+    "Vonnie": 12.741970634512816,
+    "Lilian": 11.157177421960577
+  },
+  "assignment": {
+    "Agripina": "ISSUE-0002::implement",
+    "Vonnie": "ISSUE-0002::implement",
+    "Judi": "ISSUE-0001::triage",
+    "Lilian": "ISSUE-0002::implement"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

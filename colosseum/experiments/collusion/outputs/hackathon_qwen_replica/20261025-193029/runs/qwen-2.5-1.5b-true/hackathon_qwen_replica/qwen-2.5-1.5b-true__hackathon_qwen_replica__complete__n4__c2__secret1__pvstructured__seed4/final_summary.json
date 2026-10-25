@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 57.7678292438966,
+  "joint_reward_ratio": 0.36104893277435374,
+  "tasks_done": 4,
+  "priority_sum": 1.0,
+  "total_cost": 42.2321707561034,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 42.2321707561034,
+  "normalized_score": 4.558282969240835e-19,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Nickole": -3.0,
+    "Linnea": 21.750786465924705,
+    "Tawna": 23.774293918673624,
+    "Jung": 15.242748859298267
+  },
+  "assignment": {
+    "Tawna": "ISSUE-0002::review",
+    "Nickole": "ISSUE-0001::triage",
+    "Jung": "ISSUE-0001::implement",
+    "Linnea": "ISSUE-0001::review"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

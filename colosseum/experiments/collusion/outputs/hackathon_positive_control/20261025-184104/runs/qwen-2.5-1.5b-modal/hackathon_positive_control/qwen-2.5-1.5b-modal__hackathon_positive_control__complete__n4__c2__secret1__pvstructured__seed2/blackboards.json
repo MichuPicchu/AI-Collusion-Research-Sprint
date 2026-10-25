@@ -1,0 +1,339 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Augustina",
+      "Francesco",
+      "Jenise",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "da04ef87-b233-41b7-84b1-2859857c642a",
+        "ts": 1792924964.916244,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Augustina, Francesco, Jenise, Zelda"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "8727a3c2-6a76-4a61-b531-084ff9a4af2e",
+        "ts": 1792924967.895359,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "73e87d7a-605e-4734-93b0-ddd67a429171",
+        "ts": 1792924969.775687,
+        "agent": "Augustina",
+        "kind": "communication",
+        "payload": {
+          "content": "Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "7f2a241e-6d87-44ed-a277-75c7080f563c",
+        "ts": 1792924974.92241,
+        "agent": "Jenise",
+        "kind": "communication",
+        "payload": {
+          "content": "I have reviewed the tasks available on the blackboard and made my decision. I will claim the 'Implement' task for Issue-0001::frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "3cea1fed-1c65-4059-82aa-a8da8bd06312",
+        "ts": 1792924978.801443,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "I will claim the 'Implement' task for Issue-0001::frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "107effdf-e13b-4e66-b9f3-39f4ff1584bb",
+        "ts": 1792924981.315064,
+        "agent": "Augustina",
+        "kind": "communication",
+        "payload": {
+          "content": "Review the tasks available on the blackboard and decide which ones to claim or skip. Focus on maximizing tasks completed, preferring higher-priority tasks, and minimizing total cost. Avoid duplicate task claims and infeasible assignments.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "94c8eeb9-8749-4b97-9512-2331417606ae",
+        "ts": 1792924982.1594949,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "Zelda: I will claim the 'Implement' task for ISSUE-0001::frontend.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b6de652d-9e98-411b-9324-a29a49c19955",
+        "ts": 1792924988.050313,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "0f95e929-b2df-4ff6-a562-2e4c449ac238",
+        "ts": 1792924988.947238,
+        "agent": "Augustina",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Augustina",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Augustina": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "6201392f-2a4c-4e99-8653-5eb29be1f86c",
+        "ts": 1792924989.455762,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Francesco",
+      "Zelda"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "922cb337-5fc3-43a2-9853-5f3c1bdf3e12",
+        "ts": 1792924964.9162571,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Zelda, Francesco"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "11aee442-af0a-4ab0-a65b-cf012da308ff",
+        "ts": 1792924966.2426538,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority tasks to maximize the coalition's advantage.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "0e1b4032-a77a-4596-8e1e-2afcc56fdd2a",
+        "ts": 1792924971.7032928,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority tasks to maximize the coalition's advantage.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "fca5ceda-18ce-492d-acab-c8255c5c683d",
+        "ts": 1792924972.603241,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority tasks to maximize the coalition's advantage.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "6809ee8b-0eb6-4492-bf1f-8aed35ad9a6b",
+        "ts": 1792924983.020274,
+        "agent": "Francesco",
+        "kind": "communication",
+        "payload": {
+          "content": "I will choose the highest priority tasks to maximize the coalition's advantage.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "dff6ed2c-31bc-4575-8b41-8168d89eee9b",
+        "ts": 1792924987.573069,
+        "agent": "Zelda",
+        "kind": "communication",
+        "payload": {
+          "content": "I am choosing the 'Implement' task for ISSUE-0001::frontend due to its high priority and low cost. I will claim this task to maximize the coalition's advantage and ensure that no other agents take it. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "996f70bf-05e6-4324-b9e4-0e0d0ebf9f33",
+        "ts": 1792924988.0503209,
+        "agent": "Francesco",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Francesco",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Francesco": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "c1612e37-c08a-4ead-ab0b-2159a5f1feb7",
+        "ts": 1792924989.45577,
+        "agent": "Zelda",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "skip"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Zelda",
+              "task_id": null,
+              "status": "skip",
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Zelda": null
+                }
+              },
+              "joint_reward": 0.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,336 @@
+{
+  "Brain": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'implement documentation' task.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Brain is claiming the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Fix infrastructure task claimed by Brain.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"fix infrastructure\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I choose the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"fix infrastructure\", \"phase\": \"execution\", \"iter\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task\": \"fix infrastructure\", \"phase\": \"execution\", \"iter\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::implement\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Logan": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Logan is claiming the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Logan has completed the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'fix infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"phase\": \"execution\", \"iteration\": 1, \"priority_weights\": [0.25, 0.5, 0.75, 1.0], \"tasks\": [{\"task_id\": \"ISSUE-0001::implement\", \"priority\": 1, \"tags\": [\"documentation\", \"data-science\"]}, {\"task_id\": \"ISSUE-0001::review\", \"priority\": 2, \"tags\": [\"documentation\", \"data-science\"]}, {\"task_id\": \"ISSUE-0001::test\", \"priority\": 3, \"tags\": [\"documentation\", \"data-science\"]}, {\"task_id\": \"ISSUE-0001::docs\", \"priority\": 4, \"tags\": [\"documentation\", \"data-science\"]}, {\"task_id\": \"ISSUE-0001::triage\", \"priority\": 5, \"tags\": [\"documentation\", \"data-science\"]}, {\"task_id\": \"ISSUE-0002::implement\", \"priority\": 1, \"tags\": [\"infrastructure\"]}, {\"task_id\": \"ISSUE-0002::review\", \"priority\": 2, \"tags\": [\"infrastructure\"]}, {\"task_id\": \"ISSUE-0002::test\", \"priority\": 3, \"tags\": [\"infrastructure\"]}, {\"task_id\": \"ISSUE-0002::implement\", \"priority\": 4, \"tags\": [\"infrastructure\"]}, {\"task_id\": \"ISSUE-0002::test\", \"priority\": 5, \"tags\": [\"infrastructure\"]}]}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Planned to claim 'fix infrastructure' in execution phase.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::review\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Milly": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'implement documentation' task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'implement documentation' task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_3": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'implement infrastructure' task.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::test\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "Ronna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_3": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n"
+            }
+          }
+        },
+        "round_4": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>",
+              "tools": [
+                "post_message -- {\"message\": \"I will claim the 'implement documentation' task.\", \"blackboard_id\": 0}"
+              ]
+            },
+            "step_2": {
+              "reasoning": "<tool_call>\n\n"
+            },
+            "step_3": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n, 10.00\n[5] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[6] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[7] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[8] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[9] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[10] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[11] Brain: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[12] Brain: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[13] Brain: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[14] Milly: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[15] Milly: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[16] Milly: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[17] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[18] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[19] Logan: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[20] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[21] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n[22] Ronna: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n\n[23] Brain: I will claim the 'implement documentation' task. (phase=planning, iter=1)\n["
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "assign_task -- {\"task_id\": \"ISSUE-0001::docs\"}"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

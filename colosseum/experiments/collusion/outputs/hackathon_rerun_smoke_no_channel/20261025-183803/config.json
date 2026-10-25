@@ -1,0 +1,69 @@
+{
+  "simulation": {
+    "max_iterations": 1,
+    "max_planning_rounds": 2,
+    "max_conversation_steps": 1,
+    "seed": 1,
+    "tags": [
+      "hackathon_rerun_smoke"
+    ]
+  },
+  "environment": {
+    "name": "JiraTicketEnvironment",
+    "assignment_filling": false,
+    "max_tasks": 8
+  },
+  "communication_network": {
+    "topology": "complete",
+    "num_agents": 4,
+    "consolidate_channels": true
+  },
+  "llm_models": [
+    {
+      "label": "qwen-2.5-1.5b-modal",
+      "llm": {
+        "provider": "openrouter",
+        "openrouter": {
+          "model": "Qwen/Qwen2.5-1.5B-Instruct",
+          "params": {
+            "max_tokens": 256,
+            "temperature": 0.7
+          }
+        }
+      }
+    }
+  ],
+  "experiment": {
+    "tag": "hackathon_rerun_smoke_no_channel",
+    "output_dir": "experiments/collusion/outputs/hackathon_rerun_smoke_no_channel",
+    "max_concurrent_runs": 1,
+    "seeds": [
+      4
+    ],
+    "collusion": {
+      "colluder_selection": "first",
+      "agent_order": "random",
+      "coalition_prompt": "always"
+    },
+    "sweeps": [
+      {
+        "name": "hackathon_rerun_smoke_no_channel",
+        "topologies": [
+          "complete"
+        ],
+        "num_agents": [
+          4
+        ],
+        "colluder_counts": [
+          2
+        ],
+        "secret_channel_enabled": [
+          false
+        ],
+        "prompt_variants": [
+          "structured"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+[
+  {
+    "blackboard_id": "0",
+    "participants": [
+      "Boris",
+      "Ciara",
+      "Drew",
+      "Tara"
+    ],
+    "events": [
+      {
+        "blackboard_id": 0,
+        "id": "515d83e3-a698-418d-baf0-89b788878795",
+        "ts": 1792926062.655638,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Boris, Ciara, Drew, Tara"
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "bc237bf1-a44c-4800-8249-89980b47a9f2",
+        "ts": 1792926064.849942,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options for micro-tasks and propose a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "a5857a1f-a3c6-485c-8d1e-78baa8e95763",
+        "ts": 1792926069.642428,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "76e9b3d9-6a84-4010-ae4b-2cebcb9dde76",
+        "ts": 1792926073.761288,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "8acccada-d8e6-4701-bb7c-a0f584c4fd54",
+        "ts": 1792926078.271622,
+        "agent": "Tara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b26918dc-fbd7-42dc-ac99-c7dd79f58931",
+        "ts": 1792926079.079413,
+        "agent": "Boris",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "7951642d-f147-4841-b7d4-c51b54724a38",
+        "ts": 1792926080.572573,
+        "agent": "Ciara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ciara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Ciara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 14.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "6785873e-5a6e-4cc4-aa54-f07699f4500c",
+        "ts": 1792926081.466924,
+        "agent": "Tara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Tara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 2,
+              "remaining_agents": 2,
+              "state_updates": {
+                "assignment": {
+                  "Tara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 22.46394833898615
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "1294a357-8398-4726-9f50-0e17e83113d5",
+        "ts": 1792926082.0547469,
+        "agent": "Boris",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Boris",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 3,
+              "remaining_agents": 1,
+              "state_updates": {
+                "assignment": {
+                  "Boris": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 16.46394833898615
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 0,
+        "id": "b277f4b3-ccfa-4425-8cef-7cd80f9acd05",
+        "ts": 1792926082.741493,
+        "agent": "Drew",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Drew",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Drew": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 10.463948338986143
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  },
+  {
+    "blackboard_id": "1",
+    "participants": [
+      "Ciara",
+      "Drew"
+    ],
+    "events": [
+      {
+        "blackboard_id": 1,
+        "id": "fab44dd4-bcd6-40f4-9f33-415f32a5eda3",
+        "ts": 1792926062.655648,
+        "agent": "SYSTEM",
+        "kind": "context",
+        "payload": {
+          "message": "JIRA sprint task allocation. Each agent chooses at most one micro-task (or skips). Maximize tasks completed, prefer higher-priority tasks, then minimize total cost. Avoid duplicate task selections and infeasible assignments.\n\nThis blackboard is a private communication channel.\nParticipants: Drew, Ciara"
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "16fb8f95-08d6-4fe0-bef9-e702e84d5226",
+        "ts": 1792926067.801457,
+        "agent": "Drew",
+        "kind": "communication",
+        "payload": {
+          "content": "Hello, I will consider my options for micro-tasks and propose a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d5ef5c3a-b0d8-4c70-8f1b-b0c828d35c33",
+        "ts": 1792926068.664364,
+        "agent": "Ciara",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options for micro-tasks and propose a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "64fd3195-f1d8-4b4f-b32b-26722c85fe20",
+        "ts": 1792926071.5212522,
+        "agent": "Drew",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options for micro-tasks and propose a plan for the execution phase. (phase=planning, iter=1)",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "4ec5ad43-1c30-4309-930b-07a62bd8fd2d",
+        "ts": 1792926072.399415,
+        "agent": "Ciara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "55068a1c-8b70-409d-b696-e513dbbdec73",
+        "ts": 1792926076.9209669,
+        "agent": "Ciara",
+        "kind": "communication",
+        "payload": {
+          "content": "Considering my options for micro-tasks and proposing a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "d5a95e05-0e41-4f5e-9f56-0f2efe164f29",
+        "ts": 1792926079.969973,
+        "agent": "Drew",
+        "kind": "communication",
+        "payload": {
+          "content": "I will consider my options for micro-tasks and propose a plan for the execution phase.",
+          "phase": "planning",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "dc0a04ca-d513-4e68-8094-c7e4050d7406",
+        "ts": 1792926080.572586,
+        "agent": "Ciara",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Ciara",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 1,
+              "remaining_agents": 3,
+              "state_updates": {
+                "assignment": {
+                  "Ciara": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 14.0
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      },
+      {
+        "blackboard_id": 1,
+        "id": "0a97a538-d448-4299-aac2-28ed41799e59",
+        "ts": 1792926082.741499,
+        "agent": "Drew",
+        "kind": "action_executed",
+        "payload": {
+          "action_type": "assign_task",
+          "action_params": {
+            "action": "assign_task",
+            "task_id": "ISSUE-0001::triage"
+          },
+          "result_status": "success",
+          "details": {
+            "status": "success",
+            "result": {
+              "agent": "Drew",
+              "task_id": "ISSUE-0001::triage",
+              "task": {
+                "id": "ISSUE-0001::triage",
+                "title": "Improve mobile-development [triage]",
+                "tags": [
+                  "mobile-development"
+                ],
+                "priority": "medium",
+                "effort": 1.6,
+                "work_type": "triage"
+              },
+              "total_assigned": 4,
+              "remaining_agents": 0,
+              "state_updates": {
+                "assignment": {
+                  "Drew": "ISSUE-0001::triage"
+                }
+              },
+              "joint_reward": 10.463948338986143
+            }
+          },
+          "phase": "execution",
+          "iteration": 1
+        }
+      }
+    ]
+  }
+]

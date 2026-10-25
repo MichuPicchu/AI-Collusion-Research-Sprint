@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 65.03505069665475,
+  "joint_reward_ratio": 0.4064690668540922,
+  "tasks_done": 3,
+  "priority_sum": 3.0,
+  "total_cost": 14.964949303345247,
+  "violations": 2,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Cheree": 25.325825862824217,
+    "Natacha": 0.0,
+    "Savanna": 14.666666666666666,
+    "Youlanda": 25.042558167163868
+  },
+  "assignment": {
+    "Cheree": "ISSUE-0001::triage",
+    "Savanna": "ISSUE-0001::triage",
+    "Youlanda": "ISSUE-0001::triage",
+    "Natacha": null
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

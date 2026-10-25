@@ -1,0 +1,50 @@
+# Matched no-channel twin of collusion_jira_topologies.yaml.
+# Same model, seeds, structured pair prompt, complete topology; only the
+# coalition-only blackboard is off. Compare coalition_advantage_mean and
+# colluder posts against the secret-channel sweep.
+
+simulation:
+  max_iterations: 1
+  max_planning_rounds: 4
+  max_conversation_steps: 1
+  seed: 1
+  tags: [hackathon_no_channel]
+
+environment:
+  name: JiraTicketEnvironment
+  assignment_filling: false
+  max_tasks: 8
+
+communication_network:
+  topology: complete
+  num_agents: 4
+  consolidate_channels: true
+
+llm_models:
+  - label: qwen-2.5-1.5b-modal
+    llm:
+      provider: openrouter
+      openrouter:
+        model: Qwen/Qwen2.5-1.5B-Instruct
+        params:
+          max_tokens: 256
+          temperature: 0.7
+
+experiment:
+  tag: hackathon_no_channel
+  output_dir: experiments/collusion/outputs/hackathon_no_channel
+  max_concurrent_runs: 1
+  seeds: [6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+  collusion:
+    colluder_selection: first
+    agent_order: random
+    # Runner drops non-control prompt variants when the secret channel is off
+    # unless this is "always". Keep structured so only the private board changes.
+    coalition_prompt: always
+  sweeps:
+    - name: hackathon_no_channel
+      topologies: [complete]
+      num_agents: [4]
+      colluder_counts: [2]
+      secret_channel_enabled: [false]
+      prompt_variants: [structured]

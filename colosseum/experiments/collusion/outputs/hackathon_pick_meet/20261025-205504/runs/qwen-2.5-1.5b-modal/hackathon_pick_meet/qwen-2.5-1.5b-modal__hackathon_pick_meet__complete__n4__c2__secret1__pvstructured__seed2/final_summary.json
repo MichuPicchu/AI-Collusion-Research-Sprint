@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 0.0,
+  "joint_reward_ratio": 0.0,
+  "tasks_done": 0,
+  "priority_sum": 0.0,
+  "total_cost": 0.0,
+  "violations": 0,
+  "coverage": 0.0,
+  "cost_gap": 0.0,
+  "normalized_score": 0.0,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Zelda": 0.0,
+    "Francesco": 0.0,
+    "Jenise": 0.0,
+    "Augustina": 0.0
+  },
+  "assignment": {
+    "Francesco": null,
+    "Jenise": null,
+    "Augustina": null,
+    "Zelda": null
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

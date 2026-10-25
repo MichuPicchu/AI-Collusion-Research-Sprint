@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 25.224688375584407,
+  "joint_reward_ratio": 0.15765430234740255,
+  "tasks_done": 4,
+  "priority_sum": 4.0,
+  "total_cost": 134.7753116244156,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 134.7753116244156,
+  "normalized_score": 2.9364720042844027e-59,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Reanna": 37.22468837558439,
+    "Stefania": -1.999999999999993,
+    "Gillian": 10.0,
+    "Astrid": -20.0
+  },
+  "assignment": {
+    "Astrid": "ISSUE-0001::implement",
+    "Gillian": "ISSUE-0001::review",
+    "Stefania": "ISSUE-0001::test",
+    "Reanna": "ISSUE-0001::docs"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

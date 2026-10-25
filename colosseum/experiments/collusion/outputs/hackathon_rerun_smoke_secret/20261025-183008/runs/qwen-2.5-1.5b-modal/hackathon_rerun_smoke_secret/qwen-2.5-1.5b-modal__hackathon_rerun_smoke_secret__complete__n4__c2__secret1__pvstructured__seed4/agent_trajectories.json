@@ -1,0 +1,142 @@
+{
+  "Tawna": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Nickole": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Phase: EXECUTION\\nIteration: 1\\nNickole is planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Jung": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)\", \"blackboard_id\": 0}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n<tool_call>\n<tool_call>\n\n"
+            }
+          }
+        }
+      }
+    }
+  },
+  "Linnea": {
+    "iteration_1": {
+      "planning": {
+        "round_1": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Nickole, I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend.\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        },
+        "round_2": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "",
+              "tools": [
+                "post_message -- {\"message\": \"Nickole, I'm planning to claim the following tasks: [implement] Fix security, [implement] Fix frontend, [review] Fix security, [review] Fix frontend, [test] Fix security, [test] Fix frontend, [docs] Fix security, [docs] Fix frontend. (phase=planning, iter=1)\", \"blackboard_id\": 1}"
+              ]
+            }
+          }
+        }
+      },
+      "execution": {
+        "round_0": {
+          "trajectory": {
+            "step_1": {
+              "reasoning": "<tool_call>\n\n"
+            }
+          }
+        }
+      }
+    }
+  }
+}

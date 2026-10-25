@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 126.01377460263636,
+  "joint_reward_ratio": 0.7875860912664773,
+  "tasks_done": 4,
+  "priority_sum": 3.0,
+  "total_cost": 13.986225397363643,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 13.986225397363643,
+  "normalized_score": 8.43061947248672e-07,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Shelley": 33.75646626136623,
+    "Creola": 32.313392399823215,
+    "Garth": 29.077833857009146,
+    "Gaynell": 30.86608208443777
+  },
+  "assignment": {
+    "Shelley": "ISSUE-0001::triage",
+    "Garth": "ISSUE-0001::implement",
+    "Creola": "ISSUE-0001::review",
+    "Gaynell": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

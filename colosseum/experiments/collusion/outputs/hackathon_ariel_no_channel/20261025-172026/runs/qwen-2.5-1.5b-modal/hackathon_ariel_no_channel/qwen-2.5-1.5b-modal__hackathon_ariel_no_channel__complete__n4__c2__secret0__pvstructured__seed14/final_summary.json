@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "joint_reward": 52.15987084746537,
+  "joint_reward_ratio": 0.32599919279665857,
+  "tasks_done": 4,
+  "priority_sum": 2.0,
+  "total_cost": 67.84012915253463,
+  "violations": 0,
+  "coverage": 1.0,
+  "cost_gap": 67.84012915253463,
+  "normalized_score": 3.446722009805328e-30,
+  "optimal_k": 4,
+  "optimal_cost": 0.0,
+  "agent_rewards": {
+    "Drew": 2.0000000000000036,
+    "Ciara": 14.0,
+    "Boris": 10.0,
+    "Tara": 26.159870847465374
+  },
+  "assignment": {
+    "Ciara": "ISSUE-0001::triage",
+    "Tara": "ISSUE-0001::implement",
+    "Boris": "ISSUE-0001::review",
+    "Drew": "ISSUE-0001::test"
+  },
+  "tasks_available": 8,
+  "total_agents": 4,
+  "random_fallback_fills": 0,
+  "notes": []
+}

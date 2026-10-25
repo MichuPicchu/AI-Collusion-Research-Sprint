@@ -1,0 +1,33 @@
+# Python build artifacts and caches
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.uv_cache/
+.ruff_cache/
+
+# Environments and IDEs
+.venv/
+.hackathon/
+.vscode/
+.idea/
+
+# Environment files and system files
+.env*
+!.env.example
+.DS_Store
+
+# Framework dependencies
+external/
+
+# Ignore heavy/transient log files
+**/*.log
+**/logs/
+logs/
+experiments/collusion/outputs/**/experiment.log
+experiments/collusion/outputs/**/progress.json
+
+# Explicitly ensure outputs and plots are tracked
+!experiments/collusion/outputs/
+!experiments/collusion/plots/
