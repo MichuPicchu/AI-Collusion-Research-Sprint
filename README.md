@@ -1,5 +1,7 @@
 # Judge-Detected Collusion Without Coalition Surplus: An Empirical Plus-Factor Analysis in Workplace Multi-Agent Systems
 
+**Authors:** Kinto Wan, Damni Tejani, Ariel Carlos Amaya Canete, Jemson Wong
+
 > **Apart Research AI Collusion Research Sprint (Oct 23–25, 2026)**  
 > **Track 2:** Detection and Audit of Collusion (Research Question 2.3: *What should count as convincing evidence of collusion?*)  
 > **Repository:** [\[Public GitHub Repository Link\]  ](https://github.com/MichuPicchu/AI-Collusion-Research-Sprint)
